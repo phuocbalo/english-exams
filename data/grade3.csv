@@ -1,37 +1,160 @@
 id,grade,unit,unit_title,skill,type,question,image,option_a,option_b,option_c,option_d,answer,explanation,difficulty,active,source
-G3-001,3,1,Hello,vocabulary,response,You meet your teacher in the morning. What do you say?,,"Good morning, Miss Hoa.","Goodbye, Miss Hoa.","Good night, Miss Hoa.","Thank you, Miss Hoa.",A,Buổi sáng chào nhau bằng 'Good morning'.,1,TRUE,sgk
-G3-002,3,1,Hello,grammar,response,How are you?,,I'm Nam.,"I'm fine, thank you.",Goodbye.,"Yes, I am.",B,"Hỏi thăm sức khỏe trả lời 'I'm fine, thank you.'",1,TRUE,sgk
-G3-003,3,2,Our names,spelling,missing_letter,Choose the missing letter: n _ m e,,a,o,u,i,A,Từ đúng là 'name'.,1,TRUE,new
-G3-004,3,2,Our names,grammar,fill_blank,What's ___ name? – My name is Linh.,,you,your,I,my,B,Hỏi tên người khác dùng 'your'.,1,TRUE,sgk
-G3-005,3,2,Our names,grammar,response,How old are you?,,I'm fine.,I'm Ben.,I'm eight years old.,I'm a pupil.,C,Hỏi tuổi trả lời 'I'm ... years old.',2,TRUE,sgk
-G3-006,3,3,Our friends,grammar,fill_blank,Who's ___? – It's Minh.,,this,these,they,he's,A,'Who's this?' dùng để hỏi đây là ai.,1,TRUE,sgk
-G3-007,3,3,Our friends,grammar,fill_blank,"Is this Lucy? – Yes, ___ is.",,he,it,she,they,C,Lucy là bạn nữ nên dùng 'she'.,2,TRUE,sgk
-G3-008,3,4,Our bodies,vocabulary,picture_choice,What is this?,👂,eye,ear,nose,hand,B,Hình là cái tai: 'ear'.,1,TRUE,sgk
-G3-009,3,4,Our bodies,vocabulary,picture_choice,What is this?,👃,mouth,face,nose,head,C,Hình là cái mũi: 'nose'.,1,TRUE,sgk
-G3-010,3,4,Our bodies,vocabulary,odd_one_out,Choose the odd one out.,,hand,face,eye,book,D,'book' không phải bộ phận cơ thể.,1,TRUE,new
-G3-011,3,4,Our bodies,grammar,fill_blank,Touch your ___!,✋,hand,hands up,hair,hello,A,Hình là bàn tay: 'Touch your hand!',2,TRUE,sgk
-G3-012,3,5,My hobbies,vocabulary,picture_choice,What is the hobby?,🎨,singing,drawing,dancing,swimming,B,Hình là vẽ tranh: 'drawing'.,1,TRUE,sgk
-G3-013,3,5,My hobbies,grammar,response,What's your hobby?,,It's swimming.,I'm swimming.,"Yes, it is.",It's a pen.,A,Hỏi sở thích trả lời 'It's + V-ing'.,2,TRUE,sgk
-G3-014,3,6,Our school,vocabulary,odd_one_out,Choose the odd one out.,,library,gym,classroom,teacher,D,"'teacher' là người, không phải nơi trong trường.",2,TRUE,new
-G3-015,3,6,Our school,grammar,fill_blank,"Is ___ our library? – Yes, it is.",,that,those,they,what,A,'Is that ...?' hỏi về một vật ở xa.,2,TRUE,sgk
-G3-016,3,7,Classroom instructions,grammar,fill_blank,"May I ___ out? – Yes, you can.",,go,goes,going,to go,A,Sau 'May I' dùng động từ nguyên mẫu.,2,TRUE,sgk
-G3-017,3,7,Classroom instructions,vocabulary,response,Your teacher wants you to sit down. What does she say?,,"Stand up, please.","Sit down, please.",Open your book.,Come here.,B,'Sit down' nghĩa là ngồi xuống.,1,TRUE,sgk
-G3-018,3,8,My school things,vocabulary,picture_choice,What is this?,✏️,pen,pencil,ruler,eraser,B,Hình là bút chì: 'pencil'.,1,TRUE,sgk
-G3-019,3,8,My school things,vocabulary,picture_choice,What is this?,📏,ruler,rubber,book,bag,A,Hình là thước kẻ: 'ruler'.,1,TRUE,sgk
-G3-020,3,8,My school things,spelling,missing_letter,Choose the missing letter: s c h o _ l  b a g,🎒,o,a,e,u,A,Từ đúng là 'school bag'.,2,TRUE,new
-G3-021,3,8,My school things,grammar,fill_blank,I have ___ eraser.,,a,an,two,the many,B,'eraser' bắt đầu bằng nguyên âm nên dùng 'an'.,3,TRUE,new
-G3-022,3,9,Colours,vocabulary,picture_choice,What colour is it?,🟢,red,blue,green,yellow,C,Màu xanh lá cây là 'green'.,1,TRUE,sgk
-G3-023,3,9,Colours,vocabulary,odd_one_out,Choose the odd one out.,,red,pink,pen,orange,C,'pen' không phải màu sắc.,1,TRUE,new
-G3-024,3,9,Colours,grammar,fill_blank,What colour ___ your pencils? – They're blue.,,is,are,am,do,B,'pencils' số nhiều nên dùng 'are'.,3,TRUE,new
-G3-025,3,9,Colours,grammar,response,What colour is it?,🍌,It's yellow.,It's a banana.,"Yes, it is.",They're yellow.,A,Quả chuối màu vàng: 'It's yellow.',2,TRUE,sgk
-G3-026,3,10,Break time activities,vocabulary,picture_choice,What are they playing?,⚽,basketball,football,volleyball,chess,B,Hình là quả bóng đá: 'football'.,1,TRUE,sgk
-G3-027,3,10,Break time activities,grammar,response,What do you do at break time?,,I play chess.,I'm eight.,It's chess.,"Yes, I do.",A,Trả lời hoạt động: 'I play ...'.,2,TRUE,sgk
-G3-028,3,11,My family,vocabulary,picture_choice,Who is this?,👵,father,grandmother,sister,brother,B,Hình là bà: 'grandmother'.,1,TRUE,sgk
-G3-029,3,11,My family,grammar,response,How old is your brother?,,He's ten.,She's ten.,He's fine.,It's ten.,A,'brother' là nam nên dùng 'He's'.,2,TRUE,sgk
-G3-030,3,12,Jobs,vocabulary,picture_choice,What is this job?,👨‍⚕️,teacher,farmer,doctor,driver,C,Hình là bác sĩ: 'doctor'.,1,TRUE,sgk
-G3-031,3,12,Jobs,grammar,fill_blank,My mother is ___ nurse.,,a,an,the,two,A,'nurse' bắt đầu bằng phụ âm nên dùng 'a'.,2,TRUE,sgk
-G3-032,3,13,My house,vocabulary,odd_one_out,Choose the odd one out.,,kitchen,bedroom,bathroom,window,D,"'window' là cửa sổ, không phải một căn phòng.",2,TRUE,new
-G3-033,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐱,dog,cat,rabbit,fish,B,Hình là con mèo: 'cat'.,1,TRUE,sgk
-G3-034,3,16,My pets,grammar,fill_blank,"Do you have any ___? – Yes, I have two dogs.",,pet,pets,a pet,dog,B,Sau 'any' dùng danh từ số nhiều: 'pets'.,3,TRUE,new
-G3-035,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🪁,kite,ball,doll,car,A,Hình là cái diều: 'kite'.,1,TRUE,sgk
-G3-036,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐘,tiger,monkey,elephant,giraffe,C,Hình là con voi: 'elephant'.,1,TRUE,sgk
+G3-001,3,1,Hello,vocabulary,picture_choice,The children meet at school. What do they say?,👋,Thank you.,Sorry.,Goodbye.,Hello.,D,Gặp nhau thì chào 'Hello.',1,TRUE,sgk
+G3-002,3,1,Hello,vocabulary,picture_choice,Lan goes home after school. What does she say?,🎒,Goodbye.,Fine.,Hi.,Hello.,A,Ra về thì chào tạm biệt 'Goodbye.',1,TRUE,sgk
+G3-003,3,1,Hello,vocabulary,picture_choice,Nam is fine. What does he say?,😊,"I'm Nam, thanks.","Goodbye, Nam.","I'm fine, thank you.",Nice to meet you.,C,"Nói mình khỏe: 'I'm fine, thank you.'",1,TRUE,sgk
+G3-004,3,1,Hello,vocabulary,picture_choice,You meet a new friend. What do you say?,🤝,Goodbye.,I'm fine.,"Bye, Mai.",Nice to meet you.,D,Gặp bạn mới: 'Nice to meet you.' (Rất vui được gặp bạn).,2,TRUE,new
+G3-005,3,1,Hello,spelling,missing_letter,Choose the missing letter: h e l l _,👋,o,e,i,a,A,Từ đúng là 'hello'.,1,TRUE,sgk
+G3-006,3,1,Hello,spelling,missing_letter,Choose the missing letter: g o o d b _ e,,i,a,o,y,D,Từ đúng là 'goodbye'.,1,TRUE,sgk
+G3-007,3,1,Hello,spelling,missing_letter,Choose the missing letter: f _ n e,,i,o,u,a,A,Từ đúng là 'fine' (khỏe).,1,TRUE,new
+G3-008,3,1,Hello,vocabulary,odd_one_out,Choose the odd one out.,,hi,bye,pen,hello,C,'pen' (cái bút) không phải lời chào.,1,TRUE,new
+G3-009,3,1,Hello,vocabulary,odd_one_out,Choose the odd one out.,,Ben,Mai,fine,Nam,C,'fine' không phải tên người.,2,TRUE,new
+G3-010,3,1,Hello,grammar,fill_blank,Hello. ___ Mai.,,I,I'm,am,my,B,Giới thiệu tên: 'I'm + tên'.,1,TRUE,sgk
+G3-011,3,1,Hello,grammar,fill_blank,How ___ you?,,are,be,is,am,A,Câu hỏi thăm sức khỏe: 'How are you?',1,TRUE,sgk
+G3-012,3,1,Hello,grammar,fill_blank,Nice to ___ you.,,look,meet,see,go,B,Câu chào khi gặp lần đầu: 'Nice to meet you.',2,TRUE,new
+G3-013,3,1,Hello,grammar,response,You meet your teacher in the morning. What do you say?,,"Goodbye, Miss Hoa.","Good night, Miss Hoa.","Thank you, Miss Hoa.","Good morning, Miss Hoa.",D,Buổi sáng chào nhau bằng 'Good morning'.,1,TRUE,new
+G3-014,3,1,Hello,grammar,response,How are you?,,"I'm fine, thank you.",Goodbye.,"Yes, I am.",I'm Nam.,A,"Hỏi thăm sức khỏe thì trả lời 'I'm fine, thank you.'",1,TRUE,sgk
+G3-015,3,1,Hello,grammar,response,"Mai says: ""Goodbye, Ben!"" What does Ben say?",,"Bye, Mai!",I'm fine.,Nice to meet you.,"Hello, Mai.",A,Đáp lại lời tạm biệt: 'Bye!' hoặc 'Goodbye!',1,TRUE,sgk
+G3-016,3,2,Our names,vocabulary,picture_choice,What number is it?,3️⃣,five,eight,two,three,D,Số 3 là 'three'.,1,TRUE,sgk
+G3-017,3,2,Our names,vocabulary,picture_choice,What number is it?,🔟,nine,ten,seven,six,B,Số 10 là 'ten'.,1,TRUE,sgk
+G3-018,3,2,Our names,vocabulary,picture_choice,Mai is ___ years old.,8️⃣,four,six,one,eight,D,Số 8 là 'eight'.,1,TRUE,sgk
+G3-019,3,2,Our names,vocabulary,picture_choice,How many fingers can you see?,🖐️,four,five,six,ten,B,Bàn tay có năm ngón: 'five'.,2,TRUE,new
+G3-020,3,2,Our names,spelling,missing_letter,Choose the missing letter: n _ m e,,u,i,a,o,C,Từ đúng là 'name' (tên).,1,TRUE,sgk
+G3-021,3,2,Our names,spelling,missing_letter,Choose the missing letter: s e v _ n,7️⃣,e,i,o,a,A,Từ đúng là 'seven' (số 7).,1,TRUE,sgk
+G3-022,3,2,Our names,spelling,missing_letter,Choose the missing letter: e i g h _,8️⃣,s,n,t,d,C,Từ đúng là 'eight' (số 8).,2,TRUE,new
+G3-023,3,2,Our names,vocabulary,odd_one_out,Choose the odd one out.,,name,four,one,two,A,'name' không phải số đếm.,1,TRUE,new
+G3-024,3,2,Our names,vocabulary,odd_one_out,Choose the odd one out.,,nine,ten,Linh,six,C,"'Linh' là tên người, không phải số đếm.",1,TRUE,new
+G3-025,3,2,Our names,grammar,fill_blank,What's ___ name? – My name is Linh.,,you,your,I,my,B,Hỏi tên người khác dùng 'your'.,1,TRUE,sgk
+G3-026,3,2,Our names,grammar,fill_blank,My ___ is Ben.,,nine,am,name,names,C,'My name is Ben.' = Tên tôi là Ben.,1,TRUE,sgk
+G3-027,3,2,Our names,grammar,fill_blank,I'm nine ___ old.,,year,years,yes,you,B,Nói tuổi dùng 'years old'.,2,TRUE,new
+G3-028,3,2,Our names,grammar,response,How old are you?,,I'm Ben.,I'm eight years old.,I'm a pupil.,I'm fine.,B,Hỏi tuổi thì trả lời 'I'm ... years old.',2,TRUE,sgk
+G3-029,3,2,Our names,grammar,response,What's your name?,,I'm eight.,My name's Lucy.,I'm fine.,Goodbye.,B,Hỏi tên thì trả lời 'My name's ...',1,TRUE,sgk
+G3-030,3,2,Our names,grammar,response,How do you spell your name?,,I'm nine.,N-A-M.,I'm Nam.,"Yes, it is.",B,Đánh vần tên thì đọc từng chữ cái: N-A-M.,2,TRUE,new
+G3-031,3,3,Our friends,vocabulary,picture_choice,Who's this? It's my ___.,👩‍🏫,teacher,mother,pupil,friend,A,Hình là cô giáo: 'teacher'.,1,TRUE,sgk
+G3-032,3,3,Our friends,vocabulary,picture_choice,They are my ___.,👫,names,books,friends,teachers,C,Hình là hai bạn nhỏ: 'friends'.,1,TRUE,sgk
+G3-033,3,3,Our friends,vocabulary,picture_choice,Is it a boy or a girl? It's a ___.,👦,girl,boy,teacher,friend,B,Hình là bạn trai: 'boy'.,1,TRUE,new
+G3-034,3,3,Our friends,vocabulary,picture_choice,This is Lucy. ___ is my friend.,👧,They,He,It,She,D,Lucy là bạn gái nên dùng 'She'.,2,TRUE,sgk
+G3-035,3,3,Our friends,spelling,missing_letter,Choose the missing letter: f r i e n _,👫,d,t,s,b,A,Từ đúng là 'friend' (bạn).,1,TRUE,sgk
+G3-036,3,3,Our friends,spelling,missing_letter,Choose the missing letter: t e a c h _ r,👩‍🏫,a,o,e,i,C,Từ đúng là 'teacher' (giáo viên).,1,TRUE,sgk
+G3-037,3,3,Our friends,spelling,missing_letter,Choose the missing letter: t h _ s,,e,o,a,i,D,"Từ đúng là 'this' (đây, này).",1,TRUE,new
+G3-038,3,3,Our friends,vocabulary,odd_one_out,Choose the odd one out.,,Nam,friend,Mai,Lucy,B,'friend' không phải tên người.,1,TRUE,new
+G3-039,3,3,Our friends,vocabulary,odd_one_out,Choose the odd one out.,,she,it,he,yes,D,"'yes' không phải đại từ như he, she, it.",2,TRUE,new
+G3-040,3,3,Our friends,grammar,fill_blank,Who's ___? – It's Minh.,,these,they,he's,this,D,'Who's this?' dùng để hỏi đây là ai.,1,TRUE,sgk
+G3-041,3,3,Our friends,grammar,fill_blank,"Is this Lucy? – Yes, ___ is.",,it,she,they,he,A,"Trả lời 'Is this/that ...?' dùng 'Yes, it is.'",2,TRUE,sgk
+G3-042,3,3,Our friends,grammar,fill_blank,"Is that Ben? – No, it ___.",,is,isn't,are,am,B,"Câu trả lời phủ định: 'No, it isn't.'",2,TRUE,sgk
+G3-043,3,3,Our friends,grammar,response,Who's that?,,"Yes, it is.",Goodbye.,It's Nam.,I'm fine.,C,Hỏi đó là ai thì trả lời 'It's + tên'.,1,TRUE,sgk
+G3-044,3,3,Our friends,grammar,response,Is this your friend?,,"Yes, it is.",It's eight.,My name's Lan.,"Yes, I am.",A,"Trả lời câu hỏi 'Is this ...?' dùng 'Yes, it is.'",2,TRUE,new
+G3-045,3,3,Our friends,grammar,response,"This is my friend, Ben.",,I'm eight.,"Hello, Ben. Nice to meet you.",Who's that?,"Goodbye, Ben.",B,Khi được giới thiệu bạn mới: 'Hello. Nice to meet you.',2,TRUE,new
+G3-046,3,4,Our bodies,vocabulary,picture_choice,What is this?,👂,hand,eye,ear,nose,C,Hình là cái tai: 'ear'.,1,TRUE,sgk
+G3-047,3,4,Our bodies,vocabulary,picture_choice,What is this?,👃,face,nose,head,mouth,B,Hình là cái mũi: 'nose'.,1,TRUE,sgk
+G3-048,3,4,Our bodies,vocabulary,picture_choice,What is this?,👁️,hair,eye,ear,hand,B,Hình là con mắt: 'eye'.,1,TRUE,sgk
+G3-049,3,4,Our bodies,vocabulary,picture_choice,What is this?,👄,hair,mouth,nose,face,B,Hình là cái miệng: 'mouth'.,1,TRUE,sgk
+G3-050,3,4,Our bodies,spelling,missing_letter,Choose the missing letter: m o u _ h,👄,t,s,n,c,A,Từ đúng là 'mouth' (miệng).,1,TRUE,sgk
+G3-051,3,4,Our bodies,spelling,missing_letter,Choose the missing letter: f _ c e,,i,u,o,a,D,Từ đúng là 'face' (khuôn mặt).,1,TRUE,sgk
+G3-052,3,4,Our bodies,spelling,missing_letter,Choose the missing letter: h _ i r,,u,o,i,a,D,Từ đúng là 'hair' (tóc).,2,TRUE,new
+G3-053,3,4,Our bodies,vocabulary,odd_one_out,Choose the odd one out.,,book,hand,face,eye,A,'book' không phải bộ phận cơ thể.,1,TRUE,new
+G3-054,3,4,Our bodies,vocabulary,odd_one_out,Choose the odd one out.,,nose,pen,mouth,ear,B,'pen' không phải bộ phận cơ thể.,1,TRUE,new
+G3-055,3,4,Our bodies,grammar,fill_blank,Touch your ___!,✋,hair,hello,hand,hands up,C,Hình là bàn tay: 'Touch your hand!',2,TRUE,sgk
+G3-056,3,4,Our bodies,grammar,fill_blank,___ your eyes.,,Close,Stand,Come,Sit,A,'Close your eyes.' = Nhắm mắt lại.,1,TRUE,sgk
+G3-057,3,4,Our bodies,grammar,fill_blank,What's this? – It's ___ ear.,,a,an,the,two,B,'ear' bắt đầu bằng nguyên âm nên dùng 'an ear'.,2,TRUE,new
+G3-058,3,4,Our bodies,grammar,response,What's this?,👃,It's a nose.,It's a mouth.,They're noses.,"Yes, it is.",A,Hình là cái mũi: 'It's a nose.',1,TRUE,sgk
+G3-059,3,4,Our bodies,grammar,response,"Open your mouth, please.",,Goodbye.,"Yes, it is.",It's a mouth.,OK!,D,"Khi được yêu cầu làm gì, đáp lại 'OK!'",2,TRUE,new
+G3-060,3,4,Our bodies,grammar,response,What are these?,👀,They're ears.,It's a nose.,It's an eye.,They're eyes.,D,Hai con mắt (số nhiều): 'They're eyes.',3,TRUE,new
+G3-061,3,5,My hobbies,vocabulary,picture_choice,What is the hobby?,🎨,swimming,singing,drawing,dancing,C,Hình là vẽ tranh: 'drawing'.,1,TRUE,sgk
+G3-062,3,5,My hobbies,vocabulary,picture_choice,What is the hobby?,🏊,cooking,swimming,walking,running,B,Hình là bơi lội: 'swimming'.,1,TRUE,sgk
+G3-063,3,5,My hobbies,vocabulary,picture_choice,What is the hobby?,🎤,dancing,drawing,painting,singing,D,Hình là ca hát: 'singing'.,1,TRUE,sgk
+G3-064,3,5,My hobbies,vocabulary,picture_choice,What is the hobby?,🏃,walking,swimming,running,cooking,C,Hình là chạy bộ: 'running'.,1,TRUE,new
+G3-065,3,5,My hobbies,spelling,missing_letter,Choose the missing letter: d a n c _ n g,💃,o,i,e,a,B,Từ đúng là 'dancing' (nhảy múa).,1,TRUE,sgk
+G3-066,3,5,My hobbies,spelling,missing_letter,Choose the missing letter: s w _ m m i n g,🏊,a,i,o,e,B,Từ đúng là 'swimming' (bơi lội).,1,TRUE,sgk
+G3-067,3,5,My hobbies,spelling,missing_letter,Choose the missing letter: h o b b _,,e,a,i,y,D,Từ đúng là 'hobby' (sở thích).,2,TRUE,new
+G3-068,3,5,My hobbies,vocabulary,odd_one_out,Choose the odd one out.,,swimming,nose,singing,dancing,B,'nose' không phải sở thích.,1,TRUE,new
+G3-069,3,5,My hobbies,vocabulary,odd_one_out,Choose the odd one out.,,pencil,cooking,running,drawing,A,"'pencil' là đồ vật, không phải sở thích.",1,TRUE,new
+G3-070,3,5,My hobbies,grammar,fill_blank,My hobby ___ singing.,,is,am,are,be,A,'My hobby is ...' = Sở thích của tôi là ...,1,TRUE,sgk
+G3-071,3,5,My hobbies,grammar,fill_blank,What's ___ hobby? – It's dancing.,,your,my,I,you,A,Hỏi sở thích của bạn: 'What's your hobby?',1,TRUE,sgk
+G3-072,3,5,My hobbies,grammar,fill_blank,I like ___.,,swims,to swimming,swim,swimming,D,Sau 'like' dùng V-ing: 'I like swimming.',3,TRUE,new
+G3-073,3,5,My hobbies,grammar,response,What's your hobby?,,It's a pen.,It's swimming.,I'm swimming.,"Yes, it is.",B,Hỏi sở thích thì trả lời 'It's + V-ing.',2,TRUE,sgk
+G3-074,3,5,My hobbies,grammar,response,Do you like drawing?,,I'm drawing.,It's drawing.,"Yes, it is.","Yes, I do.",D,"Câu hỏi 'Do you ...?' trả lời 'Yes, I do.' hoặc 'No, I don't.'",2,TRUE,new
+G3-075,3,5,My hobbies,grammar,response,Look at the picture. What's your hobby?,🍳,It's walking.,It's singing.,It's cooking.,It's swimming.,C,Hình là nấu ăn: 'It's cooking.',1,TRUE,sgk
+G3-076,3,6,Our school,vocabulary,picture_choice,What room is it? It's the ___.,📚,library,playground,music room,gym,A,Nhiều sách là thư viện: 'library'.,1,TRUE,sgk
+G3-077,3,6,Our school,vocabulary,picture_choice,It's the ___ room.,💻,class,art,music,computer,D,Hình là máy tính: 'computer room' (phòng máy tính).,1,TRUE,sgk
+G3-078,3,6,Our school,vocabulary,picture_choice,It's the ___ room.,🎵,music,art,computer,class,A,Hình là nốt nhạc: 'music room' (phòng âm nhạc).,1,TRUE,sgk
+G3-079,3,6,Our school,vocabulary,picture_choice,Let's go to the ___.,🏀,classroom,computer room,gym,library,C,Chơi bóng rổ ở phòng thể chất: 'gym'.,2,TRUE,new
+G3-080,3,6,Our school,spelling,missing_letter,Choose the missing letter: s c h _ o l,🏫,u,e,o,a,C,Từ đúng là 'school' (trường học).,1,TRUE,sgk
+G3-081,3,6,Our school,spelling,missing_letter,Choose the missing letter: l i b r _ r y,📚,o,i,e,a,D,Từ đúng là 'library' (thư viện).,1,TRUE,sgk
+G3-082,3,6,Our school,spelling,missing_letter,Choose the missing letter: p l a y g r _ u n d,,a,e,o,i,C,Từ đúng là 'playground' (sân chơi).,2,TRUE,new
+G3-083,3,6,Our school,vocabulary,odd_one_out,Choose the odd one out.,,teacher,library,gym,classroom,A,"'teacher' là người, không phải nơi trong trường.",2,TRUE,new
+G3-084,3,6,Our school,vocabulary,odd_one_out,Choose the odd one out.,,playground,gym,art room,pencil,D,"'pencil' là đồ vật, không phải nơi trong trường.",1,TRUE,new
+G3-085,3,6,Our school,grammar,fill_blank,"Is ___ our library? – Yes, it is.",,what,that,those,they,B,'Is that ...?' hỏi về một nơi ở xa.,2,TRUE,sgk
+G3-086,3,6,Our school,grammar,fill_blank,Let's ___ to the playground.,,going,to go,goes,go,D,Sau 'Let's' dùng động từ nguyên mẫu: 'Let's go'.,1,TRUE,sgk
+G3-087,3,6,Our school,grammar,fill_blank,"Is this our gym? – No, it ___.",,is,are,isn't,aren't,C,"Câu trả lời phủ định: 'No, it isn't.'",2,TRUE,sgk
+G3-088,3,6,Our school,grammar,response,Is this our classroom?,,It's a pen.,I'm fine.,"Yes, it is.","Yes, I do.",C,"Trả lời 'Is this ...?' dùng 'Yes, it is.'",1,TRUE,sgk
+G3-089,3,6,Our school,grammar,response,Let's go to the art room.,,"OK, let's go!","Yes, it is.",It's art.,I'm eight.,A,"Đồng ý lời rủ: 'OK, let's go!'",1,TRUE,new
+G3-090,3,6,Our school,grammar,response,Where do you read books at school?,,In the library.,In the music room.,In the playground.,In the gym.,A,Đọc sách ở thư viện: 'In the library.',2,TRUE,new
+G3-091,3,7,Classroom instructions,vocabulary,picture_choice,What does the teacher say?,🧍,Sit down.,Stand up.,Come in.,Close your book.,B,Hình là bạn đứng: 'Stand up.' (Đứng lên).,1,TRUE,sgk
+G3-092,3,7,Classroom instructions,vocabulary,picture_choice,What does the teacher say?,📖,Close your book.,Stand up.,Open your book.,Go out.,C,Hình là quyển sách mở: 'Open your book.',1,TRUE,sgk
+G3-093,3,7,Classroom instructions,vocabulary,picture_choice,What does the teacher say?,🤫,Come here!,Stand up!,Speak!,Don't talk!,D,Hình là ra hiệu im lặng: 'Don't talk!' (Đừng nói chuyện).,2,TRUE,new
+G3-094,3,7,Classroom instructions,vocabulary,picture_choice,You want to ask a question. What do you say?,🙋,May I sit down?,May I go out?,May I ask a question?,May I come in?,C,Muốn hỏi: 'May I ask a question?',2,TRUE,new
+G3-095,3,7,Classroom instructions,spelling,missing_letter,Choose the missing letter: s t a n _  u p,🧍,b,p,d,t,C,Từ đúng là 'stand up' (đứng lên).,1,TRUE,sgk
+G3-096,3,7,Classroom instructions,spelling,missing_letter,Choose the missing letter: c l _ s e,,u,e,a,o,D,Từ đúng là 'close' (đóng).,1,TRUE,sgk
+G3-097,3,7,Classroom instructions,spelling,missing_letter,Choose the missing letter: q u e s t _ o n,,a,e,i,o,C,Từ đúng là 'question' (câu hỏi).,2,TRUE,new
+G3-098,3,7,Classroom instructions,vocabulary,odd_one_out,Choose the odd one out.,,sit,open,book,stand,C,'book' là đồ vật; các từ còn lại là hành động.,2,TRUE,new
+G3-099,3,7,Classroom instructions,vocabulary,odd_one_out,Choose the odd one out.,,out,up,down,pen,D,"'pen' là đồ vật; 'up, down, out' chỉ hướng.",2,TRUE,new
+G3-100,3,7,Classroom instructions,grammar,fill_blank,"May I ___ out? – Yes, you can.",,going,to go,go,goes,C,Sau 'May I' dùng động từ nguyên mẫu.,2,TRUE,sgk
+G3-101,3,7,Classroom instructions,grammar,fill_blank,"___ down, please.",,Open,Close,Stand,Sit,D,"'Sit down, please.' = Mời ngồi xuống.",1,TRUE,sgk
+G3-102,3,7,Classroom instructions,grammar,fill_blank,"May I come in? – No, you ___.",,do,can,can't,are,C,"Câu trả lời phủ định: 'No, you can't.'",2,TRUE,sgk
+G3-103,3,7,Classroom instructions,grammar,response,Your teacher wants you to sit down. What does she say?,,Open your book.,Come here.,"Stand up, please.","Sit down, please.",D,'Sit down' nghĩa là ngồi xuống.,1,TRUE,sgk
+G3-104,3,7,Classroom instructions,grammar,response,May I go out?,,"Yes, it is.",I'm fine.,It's a book.,"Yes, you can.",D,"Xin phép 'May I ...?' trả lời 'Yes, you can.'",1,TRUE,sgk
+G3-105,3,7,Classroom instructions,grammar,response,"Close your book, please.",,"No, it isn't.",I'm eight.,"OK, teacher.","Yes, it is.",C,"Làm theo yêu cầu của cô: 'OK, teacher.'",1,TRUE,new
+G3-106,3,8,My school things,vocabulary,picture_choice,What is this?,✏️,ruler,eraser,pen,pencil,D,Hình là bút chì: 'pencil'.,1,TRUE,sgk
+G3-107,3,8,My school things,vocabulary,picture_choice,What is this?,📏,book,bag,ruler,rubber,C,Hình là thước kẻ: 'ruler'.,1,TRUE,sgk
+G3-108,3,8,My school things,vocabulary,picture_choice,What is this?,🎒,pencil case,notebook,school bag,ruler,C,Hình là cặp sách: 'school bag'.,1,TRUE,sgk
+G3-109,3,8,My school things,vocabulary,picture_choice,What is this?,🖊️,ruler,book,pen,pencil,C,Hình là bút mực: 'pen'.,1,TRUE,new
+G3-110,3,8,My school things,spelling,missing_letter,Choose the missing letter: s c h o _ l  b a g,🎒,e,u,o,a,C,Từ đúng là 'school bag'.,2,TRUE,sgk
+G3-111,3,8,My school things,spelling,missing_letter,Choose the missing letter: r u l _ r,📏,e,o,i,a,A,Từ đúng là 'ruler' (thước kẻ).,1,TRUE,sgk
+G3-112,3,8,My school things,spelling,missing_letter,Choose the missing letter: e r a s _ r,,i,e,a,o,B,Từ đúng là 'eraser' (cục tẩy).,2,TRUE,new
+G3-113,3,8,My school things,vocabulary,odd_one_out,Choose the odd one out.,,dog,pen,pencil,ruler,A,'dog' không phải đồ dùng học tập.,1,TRUE,new
+G3-114,3,8,My school things,vocabulary,odd_one_out,Choose the odd one out.,,notebook,book,eraser,gym,D,"'gym' là nơi trong trường, không phải đồ dùng học tập.",2,TRUE,new
+G3-115,3,8,My school things,grammar,fill_blank,I have ___ eraser.,,two,many,a,an,D,'eraser' bắt đầu bằng nguyên âm nên dùng 'an'.,3,TRUE,sgk
+G3-116,3,8,My school things,grammar,fill_blank,"Do you have a ruler? – Yes, I ___.",,does,is,am,do,D,"Trả lời 'Do you have ...?' dùng 'Yes, I do.'",2,TRUE,sgk
+G3-117,3,8,My school things,grammar,fill_blank,"Is this ___ pencil? – Yes, it is.",,your,you,I,they,A,'your pencil' = bút chì của bạn.,2,TRUE,new
+G3-118,3,8,My school things,grammar,response,Do you have a school bag?,,I'm fine.,"Yes, I do.","Yes, it is.",It's a bag.,B,"Câu hỏi 'Do you have ...?' trả lời 'Yes, I do.'",1,TRUE,sgk
+G3-119,3,8,My school things,grammar,response,Is this your pen?,,"No, it isn't.",It's red.,I have a pen.,"Yes, I do.",A,"Trả lời 'Is this ...?' dùng 'Yes, it is.' hoặc 'No, it isn't.'",2,TRUE,new
+G3-120,3,8,My school things,grammar,response,What do you have?,,"Yes, I do.",I have a pencil case.,"No, I don't.",It's a pencil case.,B,Hỏi bạn có gì thì trả lời 'I have ...',2,TRUE,sgk
+G3-121,3,9,Colours,vocabulary,picture_choice,What colour is it?,🟢,yellow,red,blue,green,D,Màu xanh lá cây là 'green'.,1,TRUE,sgk
+G3-122,3,9,Colours,vocabulary,picture_choice,What colour is it?,🔴,red,pink,orange,brown,A,Màu đỏ là 'red'.,1,TRUE,sgk
+G3-123,3,9,Colours,vocabulary,picture_choice,What colour is it?,🟦,black,white,green,blue,D,Màu xanh dương là 'blue'.,1,TRUE,sgk
+G3-124,3,9,Colours,vocabulary,picture_choice,What colour is it?,🟤,black,brown,yellow,white,B,Màu nâu là 'brown'.,1,TRUE,new
+G3-125,3,9,Colours,spelling,missing_letter,Choose the missing letter: y e l l _ w,🟡,e,u,o,a,C,Từ đúng là 'yellow' (màu vàng).,1,TRUE,sgk
+G3-126,3,9,Colours,spelling,missing_letter,Choose the missing letter: o r _ n g e,🟠,a,i,o,e,A,Từ đúng là 'orange' (màu cam).,1,TRUE,sgk
+G3-127,3,9,Colours,spelling,missing_letter,Choose the missing letter: c o l _ u r,🌈,o,u,a,e,A,Từ đúng là 'colour' (màu sắc).,2,TRUE,new
+G3-128,3,9,Colours,vocabulary,odd_one_out,Choose the odd one out.,,pink,pen,orange,red,B,'pen' không phải màu sắc.,1,TRUE,new
+G3-129,3,9,Colours,vocabulary,odd_one_out,Choose the odd one out.,,brown,book,black,white,B,'book' không phải màu sắc.,1,TRUE,new
+G3-130,3,9,Colours,grammar,fill_blank,What colour ___ your pencils? – They're blue.,,are,am,do,is,A,'pencils' là số nhiều nên dùng 'are'.,3,TRUE,sgk
+G3-131,3,9,Colours,grammar,fill_blank,What colour is it? – ___ yellow.,,He's,It's,They're,I'm,B,Một vật dùng 'It's'.,2,TRUE,sgk
+G3-132,3,9,Colours,grammar,fill_blank,My school bag ___ black.,,are,am,is,be,C,'school bag' là số ít nên dùng 'is'.,2,TRUE,new
+G3-133,3,9,Colours,grammar,response,What colour is it?,🍌,It's a banana.,"Yes, it is.",They're yellow.,It's yellow.,D,Quả chuối màu vàng: 'It's yellow.',2,TRUE,sgk
+G3-134,3,9,Colours,grammar,response,What colour are they?,🍒,It's red.,They're red.,They're green.,"Yes, they are.",B,Hai quả anh đào (số nhiều) màu đỏ: 'They're red.',2,TRUE,sgk
+G3-135,3,9,Colours,grammar,response,Is your ruler green?,,They're green.,"Yes, it is.","Yes, I do.",It's a ruler.,B,"Trả lời 'Is your ...?' dùng 'Yes, it is.'",2,TRUE,new
+G3-136,3,10,Break time activities,vocabulary,picture_choice,What are they playing?,⚽,football,volleyball,chess,basketball,A,Hình là quả bóng đá: 'football'.,1,TRUE,sgk
+G3-137,3,10,Break time activities,vocabulary,picture_choice,What are they playing?,♟️,chess,football,badminton,basketball,A,Hình là quân cờ: 'chess' (cờ vua).,1,TRUE,sgk
+G3-138,3,10,Break time activities,vocabulary,picture_choice,What are they playing?,🏐,volleyball,chess,football,badminton,A,Hình là quả bóng chuyền: 'volleyball'.,1,TRUE,sgk
+G3-139,3,10,Break time activities,vocabulary,picture_choice,What are they playing?,🏸,football,badminton,basketball,chess,B,Hình là vợt và quả cầu lông: 'badminton'.,1,TRUE,new
+G3-140,3,10,Break time activities,spelling,missing_letter,Choose the missing letter: c h _ s s,♟️,e,i,o,a,A,Từ đúng là 'chess' (cờ vua).,1,TRUE,sgk
+G3-141,3,10,Break time activities,spelling,missing_letter,Choose the missing letter: f o o t b _ l l,⚽,u,a,o,e,B,Từ đúng là 'football' (bóng đá).,1,TRUE,sgk
+G3-142,3,10,Break time activities,spelling,missing_letter,Choose the missing letter: b r e _ k  t i m e,,a,e,i,o,A,Từ đúng là 'break time' (giờ ra chơi).,2,TRUE,new
+G3-143,3,10,Break time activities,vocabulary,odd_one_out,Choose the odd one out.,,football,chess,volleyball,library,D,"'library' là nơi, không phải trò chơi.",1,TRUE,new
+G3-144,3,10,Break time activities,vocabulary,odd_one_out,Choose the odd one out.,,basketball,badminton,play,football,C,'play' là hành động (chơi); các từ khác là môn thể thao.,2,TRUE,new
+G3-145,3,10,Break time activities,grammar,fill_blank,I ___ football at break time.,,to play,play,plays,playing,B,Với 'I' dùng động từ nguyên mẫu: 'I play'.,1,TRUE,sgk
+G3-146,3,10,Break time activities,grammar,fill_blank,What do you ___ at break time?,,is,does,do,are,C,'What do you do at break time?' = Bạn làm gì vào giờ ra chơi?,2,TRUE,sgk
+G3-147,3,10,Break time activities,grammar,fill_blank,"Do you like chess? – No, I ___.",,isn't,do,am not,don't,D,"Câu trả lời phủ định: 'No, I don't.'",2,TRUE,new
+G3-148,3,10,Break time activities,grammar,response,What do you do at break time?,,I play chess.,I'm eight.,It's chess.,"Yes, I do.",A,Trả lời hoạt động: 'I play ...',2,TRUE,sgk
+G3-149,3,10,Break time activities,grammar,response,Do you like basketball?,,I'm basketball.,"Yes, I do.",It's a ball.,"Yes, it is.",B,"Câu hỏi 'Do you like ...?' trả lời 'Yes, I do.'",1,TRUE,sgk
+G3-150,3,10,Break time activities,grammar,response,Let's play badminton!,,I'm fine.,"Yes, I do.",Great idea!,It's badminton.,C,Đồng ý lời rủ: 'Great idea!' (Ý hay đấy!).,2,TRUE,new
+G3-151,3,11,My family,vocabulary,picture_choice,Who is this?,👵,father,grandmother,sister,brother,B,Hình là bà: 'grandmother'.,1,TRUE,sgk
+G3-152,3,11,My family,grammar,response,How old is your brother?,,He's ten.,She's ten.,He's fine.,It's ten.,A,'brother' là nam nên dùng 'He's'.,2,TRUE,sgk
+G3-153,3,12,Jobs,vocabulary,picture_choice,What is this job?,👨‍⚕️,teacher,farmer,doctor,driver,C,Hình là bác sĩ: 'doctor'.,1,TRUE,sgk
+G3-154,3,12,Jobs,grammar,fill_blank,My mother is ___ nurse.,,a,an,the,two,A,'nurse' bắt đầu bằng phụ âm nên dùng 'a'.,2,TRUE,sgk
+G3-155,3,13,My house,vocabulary,odd_one_out,Choose the odd one out.,,kitchen,bedroom,bathroom,window,D,"'window' là cửa sổ, không phải một căn phòng.",2,TRUE,new
+G3-156,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐱,dog,cat,rabbit,fish,B,Hình là con mèo: 'cat'.,1,TRUE,sgk
+G3-157,3,16,My pets,grammar,fill_blank,"Do you have any ___? – Yes, I have two dogs.",,pet,pets,a pet,dog,B,Sau 'any' dùng danh từ số nhiều: 'pets'.,3,TRUE,new
+G3-158,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🪁,kite,ball,doll,car,A,Hình là cái diều: 'kite'.,1,TRUE,sgk
+G3-159,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐘,tiger,monkey,elephant,giraffe,C,Hình là con voi: 'elephant'.,1,TRUE,sgk

@@ -2,18 +2,22 @@
  * Hani Desk – cấu hình dữ liệu.
  *
  * Mỗi lớp có 2 nguồn dữ liệu dạng CSV:
- *   questions: danh sách câu hỏi
- *   structure: cấu trúc đề (số câu mỗi phần của từng loại đề)
+ *   questions: danh sách câu hỏi        (tab "Questions" trong Google Sheets)
+ *   structure: cấu trúc đề              (tab "Cau truc de" trong Google Sheets)
  *
- * Hiện đang đọc file CSV trong thư mục data/ của kho GitHub.
- * Khi chuyển sang Google Sheets, chỉ cần thay 2 đường dẫn này bằng
- * link "Xuất bản lên web" (định dạng CSV) của từng tab trong Google Sheets.
+ * Mỗi nguồn là một danh sách đường dẫn, website thử lần lượt từ trên xuống:
+ *   1. link CSV "Xuất bản lên web" của Google Sheets (dán vào chỗ SHEETS_... bên dưới)
+ *   2. file CSV dự phòng trong thư mục data/ của kho GitHub
+ * Để trống link Google Sheets ('') thì website dùng file dự phòng.
  */
+var SHEETS_GRADE3_QUESTIONS = '';
+var SHEETS_GRADE3_STRUCTURE = '';
+
 window.HANI_CONFIG = {
   grades: {
     3: {
-      questions: 'data/grade3.csv',
-      structure: 'data/exam-structure.csv',
+      questions: [SHEETS_GRADE3_QUESTIONS, 'data/grade3.csv'],
+      structure: [SHEETS_GRADE3_STRUCTURE, 'data/exam-structure.csv'],
       units: [
         'Hello', 'Our names', 'Our friends', 'Our bodies', 'My hobbies',
         'Our school', 'Classroom instructions', 'My school things', 'Colours', 'Break time activities',

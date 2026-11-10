@@ -74,6 +74,8 @@
   function fmtScore(x) { return (Math.round(x * 10) / 10).toString(); }
   function isImageUrl(s) { return /^(https?:)?\/\//.test(s) || /\.(png|jpe?g|gif|webp|svg)$/i.test(s); }
   function isShort(s) { return String(s).length <= 3; }
+  // Sentence answers get one full-width row each so words never break.
+  function longOptions(q) { return q.type === 'response' || q.options.some(function (o) { return String(o).length > 7; }); }
 
   /* ---------------- icons & mascots ---------------- */
   var I = {
@@ -192,16 +194,39 @@
     return !isNaN(parseInt(q.unit, 10));
   }
 
-  function loadGrade(grade) {
-    if (state.data[grade]) return Promise.resolve(state.data[grade]);
-    var g = CFG.grades[grade];
-    var get = function (url) {
+  // Try each source in order (Google Sheets first, then the copy in GitHub).
+  function fetchFirst(sources, check) {
+    sources = [].concat(sources).filter(Boolean);
+    var i = 0, lastErr = null;
+    function attempt() {
+      if (i >= sources.length) return Promise.reject(lastErr || new Error('No data source'));
+      var url = sources[i++];
       return fetch(url, { cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + url);
         return r.text();
-      });
-    };
-    return Promise.all([get(g.questions), get(g.structure)]).then(function (res) {
+      }).then(function (text) {
+        if (!check(text)) throw new Error('Unexpected data at ' + url);
+        return text;
+      }).catch(function (e) { lastErr = e; return attempt(); });
+    }
+    return attempt();
+  }
+
+  // The structure tab may have title rows above the header; start from the row whose first cell is "mode".
+  function parseStructure(text) {
+    var lines = text.replace(/^﻿/, '').split(/\r?\n/);
+    var start = 0;
+    for (var i = 0; i < lines.length; i++) { if (/^"?mode"?,/i.test(lines[i])) { start = i; break; } }
+    return parseCSV(lines.slice(start).join('\n')).filter(function (r) { return r.mode; });
+  }
+
+  function loadGrade(grade) {
+    if (state.data[grade]) return Promise.resolve(state.data[grade]);
+    var g = CFG.grades[grade];
+    return Promise.all([
+      fetchFirst(g.questions, function (t) { return /(^|,)id,/.test(t.slice(0, 200)) || /\bquestion\b/.test(t.slice(0, 300)); }),
+      fetchFirst(g.structure, function (t) { return /(^|\n)"?mode"?,/i.test(t.replace(/^﻿/, '')); })
+    ]).then(function (res) {
       var questions = parseCSV(res[0]).filter(validQuestion).map(function (q) {
         return {
           id: q.id, unit: parseInt(q.unit, 10), type: q.type, text: q.question, image: q.image || '',
@@ -210,8 +235,8 @@
         };
       });
       var structure = {};
-      parseCSV(res[1]).forEach(function (r) {
-        var s = { name: r.name, from: parseInt(r.unit_from, 10), to: parseInt(r.unit_to, 10), counts: {} };
+      parseStructure(res[1]).forEach(function (r) {
+        var s = { name: r.name || r['Tên'], from: parseInt(r.unit_from || r['Unit từ'], 10), to: parseInt(r.unit_to || r['Unit đến'], 10), counts: {} };
         TYPE_ORDER.forEach(function (t) { s.counts[t] = parseInt(r[t], 10) || 0; });
         structure[r.mode] = s;
       });
@@ -403,7 +428,7 @@
       '<div class="dots">' + dots + '</div>' +
       '<span class="part-chip">Part ' + part + ' · ' + PART_NAMES[q.type] + '</span>' +
       '<div class="panel q-card">' + img + '<p class="q-text">' + esc(q.text) + '</p></div>' +
-      '<div class="grid2">' + opts + '</div>' +
+      '<div class="' + (longOptions(q) ? 'stack opts-1' : 'grid2') + '">' + opts + '</div>' +
       '<div class="grow"></div>' +
       '<div class="grid2"><button class="btn" data-action="prev"' + (i === 0 ? ' disabled' : '') + '>Back</button>' +
       (last ? '<button class="btn coral" data-action="submit">Submit</button>' : '<button class="btn green" data-action="next">Next</button>') + '</div>';
@@ -447,7 +472,7 @@
       return '<div class="panel stack" style="gap:12px;padding:16px">' +
         '<span class="row spread"><span class="small" style="font-size:13px">Question ' + it.n + ' · Part ' + part + '</span><span class="pill bad" style="padding:2px 10px;font-size:13px">' + (it.picked === null ? 'Skipped' : 'Wrong') + '</span></span>' +
         '<div class="row">' + img + '<p class="q-text" style="font-size:22px;text-align:left">' + esc(q.text) + '</p></div>' +
-        '<div class="grid2" style="gap:8px">' + opts + '</div>' +
+        '<div class="' + (longOptions(q) ? 'stack' : 'grid2') + '" style="gap:8px">' + opts + '</div>' +
         '<p style="font-size:15px">' + chose + ' · <span style="color:#1E5E36">Answer: ' + LETTERS[q.answer] + '. ' + esc(q.options[q.answer]) + '</span></p>' +
         (q.explanation ? '<div class="explain" lang="vi">' + I.bulb + '<p>' + esc(q.explanation) + '</p></div>' : '') +
         '</div>';
