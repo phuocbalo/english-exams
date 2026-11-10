@@ -31,7 +31,7 @@ Website PWA luyện đề trắc nghiệm Tiếng Anh cho học sinh tiểu họ
 ## Giao diện
 - Tên: **Hani Desk**.
 - Phong cách vui nhộn, hoạt hình, nhiều màu.
-- Linh vật: một chú **ốc sên**.
+- Linh vật: một chú **ốc sên**. Khi tạo hồ sơ, bé chọn Nam hoặc Nữ: bé Nữ dùng mẫu B (Kawaii), bé Nam dùng mẫu E (Speedy). Bản thiết kế hiện dùng mẫu B.
 - Hình ảnh: emoji ở bản 1, thay dần bằng hình vẽ.
 - Có hiệu ứng âm thanh, kèm nút tắt âm.
 
