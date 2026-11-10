@@ -10,8 +10,8 @@
  *   2. file CSV dự phòng trong thư mục data/ của kho GitHub
  * Để trống link Google Sheets ('') thì website dùng file dự phòng.
  */
-var SHEETS_GRADE3_QUESTIONS = '';
-var SHEETS_GRADE3_STRUCTURE = '';
+var SHEETS_GRADE3_QUESTIONS = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTqHd8BjeFc1ARAXrhZaQEDMdgSQyutdu2s-2UCO58vun1cFtN3dYtJiqoUC-9BCAeqxLbn87PA_vHU/pub?gid=414394861&single=true&output=csv';
+var SHEETS_GRADE3_STRUCTURE = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTqHd8BjeFc1ARAXrhZaQEDMdgSQyutdu2s-2UCO58vun1cFtN3dYtJiqoUC-9BCAeqxLbn87PA_vHU/pub?gid=1157929152&single=true&output=csv';
 
 window.HANI_CONFIG = {
   grades: {
