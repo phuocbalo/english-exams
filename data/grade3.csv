@@ -149,12 +149,153 @@ G3-147,3,10,Break time activities,grammar,fill_blank,"Do you like chess? – No,
 G3-148,3,10,Break time activities,grammar,response,What do you do at break time?,,I play chess.,I'm eight.,It's chess.,"Yes, I do.",A,Trả lời hoạt động: 'I play ...',2,TRUE,sgk
 G3-149,3,10,Break time activities,grammar,response,Do you like basketball?,,I'm basketball.,"Yes, I do.",It's a ball.,"Yes, it is.",B,"Câu hỏi 'Do you like ...?' trả lời 'Yes, I do.'",1,TRUE,sgk
 G3-150,3,10,Break time activities,grammar,response,Let's play badminton!,,I'm fine.,"Yes, I do.",Great idea!,It's badminton.,C,Đồng ý lời rủ: 'Great idea!' (Ý hay đấy!).,2,TRUE,new
-G3-151,3,11,My family,vocabulary,picture_choice,Who is this?,👵,father,grandmother,sister,brother,B,Hình là bà: 'grandmother'.,1,TRUE,sgk
-G3-152,3,11,My family,grammar,response,How old is your brother?,,He's ten.,She's ten.,He's fine.,It's ten.,A,'brother' là nam nên dùng 'He's'.,2,TRUE,sgk
-G3-153,3,12,Jobs,vocabulary,picture_choice,What is this job?,👨‍⚕️,teacher,farmer,doctor,driver,C,Hình là bác sĩ: 'doctor'.,1,TRUE,sgk
-G3-154,3,12,Jobs,grammar,fill_blank,My mother is ___ nurse.,,a,an,the,two,A,'nurse' bắt đầu bằng phụ âm nên dùng 'a'.,2,TRUE,sgk
-G3-155,3,13,My house,vocabulary,odd_one_out,Choose the odd one out.,,kitchen,bedroom,bathroom,window,D,"'window' là cửa sổ, không phải một căn phòng.",2,TRUE,new
-G3-156,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐱,dog,cat,rabbit,fish,B,Hình là con mèo: 'cat'.,1,TRUE,sgk
-G3-157,3,16,My pets,grammar,fill_blank,"Do you have any ___? – Yes, I have two dogs.",,pet,pets,a pet,dog,B,Sau 'any' dùng danh từ số nhiều: 'pets'.,3,TRUE,new
-G3-158,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🪁,kite,ball,doll,car,A,Hình là cái diều: 'kite'.,1,TRUE,sgk
-G3-159,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐘,tiger,monkey,elephant,giraffe,C,Hình là con voi: 'elephant'.,1,TRUE,sgk
+G3-151,3,11,My family,vocabulary,picture_choice,Who's this? It's my ___.,👨,grandmother,father,mother,sister,B,Hình là bố: 'father'.,1,TRUE,sgk
+G3-152,3,11,My family,vocabulary,picture_choice,Who's this? It's my ___.,👩,father,grandfather,brother,mother,D,Hình là mẹ: 'mother'.,1,TRUE,sgk
+G3-153,3,11,My family,vocabulary,picture_choice,Who's this? It's my ___.,👵,father,grandmother,sister,brother,B,Hình là bà: 'grandmother'.,1,TRUE,sgk
+G3-154,3,11,My family,vocabulary,picture_choice,Who's this? It's my ___.,👴,sister,grandfather,mother,grandmother,B,Hình là ông: 'grandfather'.,1,TRUE,new
+G3-155,3,11,My family,spelling,missing_letter,Choose the missing letter: f a t h _ r,👨,e,a,o,i,A,Từ đúng là 'father' (bố).,1,TRUE,sgk
+G3-156,3,11,My family,spelling,missing_letter,Choose the missing letter: s i s t _ r,,u,a,e,o,C,"Từ đúng là 'sister' (chị, em gái).",1,TRUE,sgk
+G3-157,3,11,My family,spelling,missing_letter,Choose the missing letter: b r o t h _ r,,e,i,u,a,A,"Từ đúng là 'brother' (anh, em trai).",2,TRUE,new
+G3-158,3,11,My family,vocabulary,odd_one_out,Choose the odd one out.,,father,mother,sister,teacher,D,'teacher' không phải thành viên gia đình.,1,TRUE,new
+G3-159,3,11,My family,vocabulary,odd_one_out,Choose the odd one out.,,brother,grandfather,ruler,mother,C,'ruler' (thước kẻ) không phải thành viên gia đình.,1,TRUE,new
+G3-160,3,11,My family,grammar,fill_blank,Who's ___? – It's my brother.,,those,that,they,he,B,'Who's that?' dùng để hỏi đó là ai.,1,TRUE,sgk
+G3-161,3,11,My family,grammar,fill_blank,How old is your sister? – ___ is ten.,,They,He,She,It,C,'sister' là nữ nên dùng 'She'.,2,TRUE,sgk
+G3-162,3,11,My family,grammar,fill_blank,He's my ___.,,grandmother,mother,sister,father,D,'He' chỉ nam giới: 'father'.,2,TRUE,new
+G3-163,3,11,My family,grammar,response,How old is your brother?,,It's ten.,He's ten.,She's ten.,He's fine.,B,'brother' là nam nên trả lời 'He's ten.',2,TRUE,sgk
+G3-164,3,11,My family,grammar,response,Who's that man?,,It's my mother.,He's ten.,I'm fine.,It's my father.,D,'man' là đàn ông: 'It's my father.',1,TRUE,sgk
+G3-165,3,11,My family,grammar,response,How many people are there in your family?,,It's my family.,"Yes, there are.",There are four.,I'm four.,C,Hỏi số lượng: 'There are + số.',3,TRUE,new
+G3-166,3,12,Jobs,vocabulary,picture_choice,What's his job?,👨‍⚕️,doctor,driver,teacher,farmer,A,Hình là bác sĩ: 'doctor'.,1,TRUE,sgk
+G3-167,3,12,Jobs,vocabulary,picture_choice,What's her job?,👩‍🌾,cook,singer,farmer,nurse,C,Hình là nông dân: 'farmer'.,1,TRUE,sgk
+G3-168,3,12,Jobs,vocabulary,picture_choice,What's her job?,👩‍🍳,teacher,driver,cook,doctor,C,Hình là đầu bếp: 'cook'.,1,TRUE,sgk
+G3-169,3,12,Jobs,vocabulary,picture_choice,He drives a taxi. He's a ___.,🚕,nurse,driver,farmer,teacher,B,Lái xe là 'driver' (tài xế).,2,TRUE,new
+G3-170,3,12,Jobs,spelling,missing_letter,Choose the missing letter: d o c t _ r,👨‍⚕️,a,e,u,o,D,Từ đúng là 'doctor' (bác sĩ).,1,TRUE,sgk
+G3-171,3,12,Jobs,spelling,missing_letter,Choose the missing letter: n u r _ e,,c,k,t,s,D,Từ đúng là 'nurse' (y tá).,1,TRUE,sgk
+G3-172,3,12,Jobs,spelling,missing_letter,Choose the missing letter: f a r m _ r,👩‍🌾,i,a,o,e,D,Từ đúng là 'farmer' (nông dân).,2,TRUE,new
+G3-173,3,12,Jobs,vocabulary,odd_one_out,Choose the odd one out.,,nurse,farmer,kitchen,doctor,C,'kitchen' (nhà bếp) không phải nghề nghiệp.,1,TRUE,new
+G3-174,3,12,Jobs,vocabulary,odd_one_out,Choose the odd one out.,,driver,father,teacher,cook,B,"'father' là thành viên gia đình, không phải nghề nghiệp.",2,TRUE,new
+G3-175,3,12,Jobs,grammar,fill_blank,My mother is ___ nurse.,,the,two,a,an,C,'nurse' bắt đầu bằng phụ âm nên dùng 'a'.,2,TRUE,sgk
+G3-176,3,12,Jobs,grammar,fill_blank,What's ___ job? – He's a teacher.,,he,she,his,her,C,Câu trả lời là 'He' nên hỏi 'his job'.,2,TRUE,sgk
+G3-177,3,12,Jobs,grammar,fill_blank,"Is your father a farmer? – Yes, he ___.",,am,is,are,does,B,"Trả lời 'Is your father ...?' dùng 'Yes, he is.'",2,TRUE,new
+G3-178,3,12,Jobs,grammar,response,What's her job?,👩‍🏫,It's a teacher.,She's a teacher.,He's a teacher.,She's ten.,B,Hình là cô giáo: 'She's a teacher.',1,TRUE,sgk
+G3-179,3,12,Jobs,grammar,response,What's his job?,👨‍🌾,"Yes, he is.",He's a doctor.,He's a farmer.,She's a farmer.,C,Hình là bác nông dân: 'He's a farmer.',1,TRUE,sgk
+G3-180,3,12,Jobs,grammar,response,Is your mother a nurse?,,"Yes, she is.","Yes, I am.",She's a nurse job.,"No, he isn't.",A,"'mother' là nữ: 'Yes, she is.'",2,TRUE,new
+G3-181,3,13,My house,vocabulary,picture_choice,Which room is it? It's the ___.,🛏️,kitchen,bathroom,garden,bedroom,D,Có giường là phòng ngủ: 'bedroom'.,1,TRUE,sgk
+G3-182,3,13,My house,vocabulary,picture_choice,Which room is it? It's the ___.,🛁,bathroom,living room,garden,kitchen,A,Có bồn tắm là phòng tắm: 'bathroom'.,1,TRUE,sgk
+G3-183,3,13,My house,vocabulary,picture_choice,Mum cooks in the ___.,🍳,bathroom,kitchen,garden,bedroom,B,Nấu ăn ở nhà bếp: 'kitchen'.,1,TRUE,sgk
+G3-184,3,13,My house,vocabulary,picture_choice,The flowers are in the ___.,🌷,bedroom,bathroom,garden,kitchen,C,Hoa trồng ở khu vườn: 'garden'.,1,TRUE,new
+G3-185,3,13,My house,spelling,missing_letter,Choose the missing letter: h o u _ e,🏠,s,c,z,t,A,Từ đúng là 'house' (ngôi nhà).,1,TRUE,sgk
+G3-186,3,13,My house,spelling,missing_letter,Choose the missing letter: k i t c h _ n,,a,e,i,o,B,Từ đúng là 'kitchen' (nhà bếp).,1,TRUE,sgk
+G3-187,3,13,My house,spelling,missing_letter,Choose the missing letter: b a t h r _ o m,🛁,a,u,e,o,D,Từ đúng là 'bathroom' (phòng tắm).,2,TRUE,new
+G3-188,3,13,My house,vocabulary,odd_one_out,Choose the odd one out.,,window,kitchen,bedroom,bathroom,A,'window' (cửa sổ) không phải căn phòng.,2,TRUE,new
+G3-189,3,13,My house,vocabulary,odd_one_out,Choose the odd one out.,,doctor,house,garden,kitchen,A,"'doctor' là nghề nghiệp, không phải nơi trong nhà.",1,TRUE,new
+G3-190,3,13,My house,grammar,fill_blank,Where's ___ kitchen? – It's there.,,a,the,an,two,B,Hỏi vị trí căn phòng: 'Where's the ...?',2,TRUE,sgk
+G3-191,3,13,My house,grammar,fill_blank,This ___ my house.,,are,am,be,is,D,'This is my house.' = Đây là nhà của tôi.,1,TRUE,sgk
+G3-192,3,13,My house,grammar,fill_blank,"Is there a garden? – Yes, there ___.",,are,isn't,am,is,D,"Trả lời 'Is there ...?' dùng 'Yes, there is.'",2,TRUE,new
+G3-193,3,13,My house,grammar,response,Where's the bathroom?,,They're there.,It's there.,It's a bathroom.,"Yes, it is.",B,Hỏi ở đâu thì trả lời 'It's here/there.',1,TRUE,sgk
+G3-194,3,13,My house,grammar,response,Is this your bedroom?,,It's bedroom.,I'm in the bedroom.,"Yes, it is.","Yes, I do.",C,"Trả lời 'Is this ...?' dùng 'Yes, it is.'",1,TRUE,sgk
+G3-195,3,13,My house,grammar,response,Let's go to the living room.,,OK!,It's a room.,"Yes, I do.","No, it isn't.",A,Đồng ý lời rủ: 'OK!',1,TRUE,new
+G3-196,3,14,My bedroom,vocabulary,picture_choice,What is this?,🛏️,chair,door,bed,desk,C,Hình là cái giường: 'bed'.,1,TRUE,sgk
+G3-197,3,14,My bedroom,vocabulary,picture_choice,What is this?,🪑,lamp,chair,window,bed,B,Hình là cái ghế: 'chair'.,1,TRUE,sgk
+G3-198,3,14,My bedroom,vocabulary,picture_choice,What is this?,🚪,window,desk,door,lamp,C,Hình là cánh cửa: 'door'.,1,TRUE,sgk
+G3-199,3,14,My bedroom,vocabulary,picture_choice,What is this?,🪟,chair,window,door,bed,B,Hình là cửa sổ: 'window'.,1,TRUE,new
+G3-200,3,14,My bedroom,spelling,missing_letter,Choose the missing letter: c h a _ r,🪑,o,u,i,e,C,Từ đúng là 'chair' (cái ghế).,1,TRUE,sgk
+G3-201,3,14,My bedroom,spelling,missing_letter,Choose the missing letter: w i n d _ w,🪟,a,e,u,o,D,Từ đúng là 'window' (cửa sổ).,1,TRUE,sgk
+G3-202,3,14,My bedroom,spelling,missing_letter,Choose the missing letter: b e d r _ o m,🛏️,u,o,a,e,B,Từ đúng là 'bedroom' (phòng ngủ).,2,TRUE,new
+G3-203,3,14,My bedroom,vocabulary,odd_one_out,Choose the odd one out.,,bed,chair,desk,cat,D,"'cat' là con vật, không phải đồ dùng trong phòng.",1,TRUE,new
+G3-204,3,14,My bedroom,vocabulary,odd_one_out,Choose the odd one out.,,big,small,door,old,C,'door' là đồ vật; các từ khác chỉ đặc điểm.,2,TRUE,new
+G3-205,3,14,My bedroom,grammar,fill_blank,There ___ a bed in my room.,,is,are,am,be,A,Một vật dùng 'There is'.,2,TRUE,sgk
+G3-206,3,14,My bedroom,grammar,fill_blank,There are two ___ in my room.,,chairs,a chair,chaires,chair,A,Sau 'two' dùng danh từ số nhiều: 'chairs'.,2,TRUE,sgk
+G3-207,3,14,My bedroom,grammar,fill_blank,The desk is ___. It isn't small.,,big,small,door,two,A,Không nhỏ nghĩa là to: 'big'.,2,TRUE,new
+G3-208,3,14,My bedroom,grammar,response,Is your bed big?,,It's a bed.,They're big.,"Yes, it is.","Yes, I do.",C,"Trả lời 'Is your ...?' dùng 'Yes, it is.'",2,TRUE,sgk
+G3-209,3,14,My bedroom,grammar,response,How many chairs are there?,,There are two.,There is two.,It's a chair.,"Yes, there are.",A,Nhiều vật dùng 'There are + số.',2,TRUE,sgk
+G3-210,3,14,My bedroom,grammar,response,Where's the lamp?,,It's a lamp.,"Yes, it is.",They're lamps.,It's on the desk.,D,Hỏi ở đâu thì trả lời vị trí: 'It's on the desk.',2,TRUE,new
+G3-211,3,15,At the dining table,vocabulary,picture_choice,What is it?,🍚,rice,bread,milk,fish,A,Hình là cơm: 'rice'.,1,TRUE,sgk
+G3-212,3,15,At the dining table,vocabulary,picture_choice,What is it?,🍞,meat,bread,egg,juice,B,Hình là bánh mì: 'bread'.,1,TRUE,sgk
+G3-213,3,15,At the dining table,vocabulary,picture_choice,What is it?,🥛,juice,milk,rice,water,B,Hình là cốc sữa: 'milk'.,1,TRUE,sgk
+G3-214,3,15,At the dining table,vocabulary,picture_choice,What is it?,🐟,fish,meat,egg,chicken,A,Hình là con cá: 'fish'.,1,TRUE,new
+G3-215,3,15,At the dining table,spelling,missing_letter,Choose the missing letter: b r e _ d,🍞,a,u,o,i,A,Từ đúng là 'bread' (bánh mì).,1,TRUE,sgk
+G3-216,3,15,At the dining table,spelling,missing_letter,Choose the missing letter: w a t _ r,💧,u,e,a,o,B,Từ đúng là 'water' (nước).,1,TRUE,sgk
+G3-217,3,15,At the dining table,spelling,missing_letter,Choose the missing letter: c h i c k _ n,🍗,i,e,a,o,B,Từ đúng là 'chicken' (thịt gà).,2,TRUE,new
+G3-218,3,15,At the dining table,vocabulary,odd_one_out,Choose the odd one out.,,fish,chair,rice,bread,B,'chair' (cái ghế) không phải đồ ăn.,1,TRUE,new
+G3-219,3,15,At the dining table,vocabulary,odd_one_out,Choose the odd one out.,,meat,milk,water,juice,A,'meat' là đồ ăn; các từ khác là đồ uống.,2,TRUE,new
+G3-220,3,15,At the dining table,grammar,fill_blank,I'd like some ___.,,milk,a milk,milks,an milk,A,'some milk' = một ít sữa.,2,TRUE,sgk
+G3-221,3,15,At the dining table,grammar,fill_blank,What would you like to ___? – I'd like some juice.,,play,go,drink,eat,C,'juice' là đồ uống nên dùng 'drink'.,2,TRUE,sgk
+G3-222,3,15,At the dining table,grammar,fill_blank,Would you like ___ egg?,,many,a,an,two,C,'egg' bắt đầu bằng nguyên âm nên dùng 'an'.,2,TRUE,new
+G3-223,3,15,At the dining table,grammar,response,What would you like to eat?,,I'd like some rice.,I'd like some water.,"Yes, please.",It's rice.,A,Hỏi muốn ăn gì: 'I'd like some + đồ ăn.',2,TRUE,sgk
+G3-224,3,15,At the dining table,grammar,response,Would you like some bread?,,"Yes, please.","Yes, I am.",It's bread.,I'm bread.,A,"Đồng ý lời mời: 'Yes, please.'",2,TRUE,sgk
+G3-225,3,15,At the dining table,grammar,response,What would you like to drink?,🧃,I'd like some fish.,I'd like some rice.,"No, I don't.",I'd like some juice.,D,Hình là hộp nước ép: 'I'd like some juice.',2,TRUE,new
+G3-226,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐱,fish,dog,cat,rabbit,C,Hình là con mèo: 'cat'.,1,TRUE,sgk
+G3-227,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐶,bird,fish,dog,cat,C,Hình là con chó: 'dog'.,1,TRUE,sgk
+G3-228,3,16,My pets,vocabulary,picture_choice,What animal is this?,🐰,rabbit,dog,cat,parrot,A,Hình là con thỏ: 'rabbit'.,1,TRUE,sgk
+G3-229,3,16,My pets,vocabulary,picture_choice,What animal is this?,🦜,dog,parrot,rabbit,goldfish,B,Hình là con vẹt: 'parrot'.,1,TRUE,new
+G3-230,3,16,My pets,spelling,missing_letter,Choose the missing letter: r a b b _ t,🐰,o,i,u,a,B,Từ đúng là 'rabbit' (con thỏ).,1,TRUE,sgk
+G3-231,3,16,My pets,spelling,missing_letter,Choose the missing letter: p a r r _ t,🦜,e,i,o,a,C,Từ đúng là 'parrot' (con vẹt).,1,TRUE,sgk
+G3-232,3,16,My pets,spelling,missing_letter,Choose the missing letter: g o l d f _ s h,🐠,i,a,e,u,A,Từ đúng là 'goldfish' (cá vàng).,2,TRUE,new
+G3-233,3,16,My pets,vocabulary,odd_one_out,Choose the odd one out.,,cat,dog,rabbit,rice,D,"'rice' là đồ ăn, không phải con vật.",1,TRUE,new
+G3-234,3,16,My pets,vocabulary,odd_one_out,Choose the odd one out.,,doll,cat,parrot,goldfish,A,"'doll' (búp bê) là đồ chơi, không phải con vật.",2,TRUE,new
+G3-235,3,16,My pets,grammar,fill_blank,"Do you have any ___? – Yes, I have two dogs.",,a pet,dog,pet,pets,D,Sau 'any' dùng danh từ số nhiều: 'pets'.,3,TRUE,sgk
+G3-236,3,16,My pets,grammar,fill_blank,I have two ___.,,cates,cat,cats,a cat,C,Sau 'two' dùng danh từ số nhiều: 'cats'.,2,TRUE,sgk
+G3-237,3,16,My pets,grammar,fill_blank,How many dogs ___ you have?,,is,do,does,are,B,'How many ... do you have?' = Bạn có bao nhiêu ...?,2,TRUE,new
+G3-238,3,16,My pets,grammar,response,Do you have a dog?,,It's a dog.,I'm a dog.,"Yes, I do.","Yes, it is.",C,"Trả lời 'Do you have ...?' dùng 'Yes, I do.'",1,TRUE,sgk
+G3-239,3,16,My pets,grammar,response,How many cats do you have?,,They're cats.,I have three.,It's a cat.,"Yes, I do.",B,Hỏi bao nhiêu thì trả lời bằng số: 'I have three.',2,TRUE,sgk
+G3-240,3,16,My pets,grammar,response,What pet do you have?,🐠,I have a dog.,"Yes, I have.",I like it.,I have a goldfish.,D,Hình là cá vàng: 'I have a goldfish.',2,TRUE,new
+G3-241,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🪁,doll,car,kite,ball,C,Hình là cái diều: 'kite'.,1,TRUE,sgk
+G3-242,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🧸,ball,robot,teddy bear,car,C,Hình là gấu bông: 'teddy bear'.,1,TRUE,sgk
+G3-243,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🚗,kite,doll,ship,car,D,Hình là ô tô: 'car'.,1,TRUE,sgk
+G3-244,3,17,Our toys,vocabulary,picture_choice,What toy is this?,🤖,robot,train,plane,kite,A,Hình là người máy: 'robot'.,1,TRUE,new
+G3-245,3,17,Our toys,spelling,missing_letter,Choose the missing letter: r o b _ t,🤖,u,o,a,e,B,Từ đúng là 'robot' (người máy).,1,TRUE,sgk
+G3-246,3,17,Our toys,spelling,missing_letter,Choose the missing letter: t e d d _  b e a r,🧸,a,y,i,e,B,Từ đúng là 'teddy bear' (gấu bông).,1,TRUE,sgk
+G3-247,3,17,Our toys,spelling,missing_letter,Choose the missing letter: p l _ n e,✈️,o,i,u,a,D,Từ đúng là 'plane' (máy bay).,2,TRUE,new
+G3-248,3,17,Our toys,vocabulary,odd_one_out,Choose the odd one out.,,milk,doll,kite,robot,A,'milk' (sữa) không phải đồ chơi.,1,TRUE,new
+G3-249,3,17,Our toys,vocabulary,odd_one_out,Choose the odd one out.,,car,train,plane,teacher,D,"'teacher' là người, không phải đồ chơi.",2,TRUE,new
+G3-250,3,17,Our toys,grammar,fill_blank,She ___ a doll.,,are,has,have,is,B,Với 'She' dùng 'has'.,2,TRUE,sgk
+G3-251,3,17,Our toys,grammar,fill_blank,I ___ two cars.,,have,has,am,is,A,Với 'I' dùng 'have'.,2,TRUE,sgk
+G3-252,3,17,Our toys,grammar,fill_blank,How many ___ do you have?,,kite,kites,a kite,kited,B,Sau 'How many' dùng danh từ số nhiều: 'kites'.,2,TRUE,new
+G3-253,3,17,Our toys,grammar,response,What toys do you like?,,It's a robot.,"Yes, I do.",I'm a robot.,I like robots.,D,Hỏi thích đồ chơi gì: 'I like + đồ chơi.',2,TRUE,sgk
+G3-254,3,17,Our toys,grammar,response,Do you have a teddy bear?,,"Yes, it is.",It's a teddy bear.,She has a teddy bear.,"Yes, I do.",D,"Trả lời 'Do you have ...?' dùng 'Yes, I do.'",1,TRUE,sgk
+G3-255,3,17,Our toys,grammar,response,Look! My new kite!,,Wow! It's nice!,"Yes, I do.",I'm a kite.,"No, I don't.",A,Khen đồ chơi của bạn: 'Wow! It's nice!',1,TRUE,new
+G3-256,3,18,Playing and doing,vocabulary,picture_choice,What is she doing? She's ___.,📖,singing,cooking,reading,writing,C,Hình là quyển sách: 'reading' (đọc sách).,1,TRUE,sgk
+G3-257,3,18,Playing and doing,vocabulary,picture_choice,He's ___ to music.,🎧,reading,playing,watching,listening,D,Nghe nhạc: 'listening to music'.,1,TRUE,sgk
+G3-258,3,18,Playing and doing,vocabulary,picture_choice,They're ___ TV.,📺,listening,playing,reading,watching,D,Xem ti vi: 'watching TV'.,1,TRUE,sgk
+G3-259,3,18,Playing and doing,vocabulary,picture_choice,What is she doing? She's ___.,✍️,reading,singing,writing,drawing,C,Hình là tay đang viết: 'writing'.,1,TRUE,new
+G3-260,3,18,Playing and doing,spelling,missing_letter,Choose the missing letter: r e a d _ n g,📖,e,a,o,i,D,Từ đúng là 'reading' (đọc).,1,TRUE,sgk
+G3-261,3,18,Playing and doing,spelling,missing_letter,Choose the missing letter: w r _ t i n g,✍️,i,a,e,o,A,Từ đúng là 'writing' (viết).,1,TRUE,sgk
+G3-262,3,18,Playing and doing,spelling,missing_letter,Choose the missing letter: m u s _ c,🎵,e,o,i,a,C,Từ đúng là 'music' (âm nhạc).,1,TRUE,new
+G3-263,3,18,Playing and doing,vocabulary,odd_one_out,Choose the odd one out.,,reading,writing,drawing,desk,D,'desk' là đồ vật; các từ khác là hoạt động.,1,TRUE,new
+G3-264,3,18,Playing and doing,vocabulary,odd_one_out,Choose the odd one out.,,playing,listening,watching,school,D,'school' là nơi chốn; các từ khác là hoạt động (V-ing).,2,TRUE,new
+G3-265,3,18,Playing and doing,grammar,fill_blank,What are you ___?,,did,doing,do,does,B,'What are you doing?' = Bạn đang làm gì?,2,TRUE,sgk
+G3-266,3,18,Playing and doing,grammar,fill_blank,I'm ___ a book.,,reads,to read,reading,read,C,Sau 'I'm' dùng V-ing: 'I'm reading.',2,TRUE,sgk
+G3-267,3,18,Playing and doing,grammar,fill_blank,What ___ he doing? – He's drawing.,,are,am,do,is,D,Với 'he' dùng 'is'.,2,TRUE,new
+G3-268,3,18,Playing and doing,grammar,response,What are you doing?,,I'm watching TV.,I like TV.,"Yes, I am.",It's a TV.,A,Hỏi đang làm gì thì trả lời 'I'm + V-ing.',2,TRUE,sgk
+G3-269,3,18,Playing and doing,grammar,response,What's she doing?,🎤,She's singing.,He's singing.,She singing.,"Yes, she is.",A,"Hình là micro, bạn nữ: 'She's singing.'",2,TRUE,sgk
+G3-270,3,18,Playing and doing,grammar,response,Are you reading?,,I'm a book.,It's reading.,"Yes, I am.","Yes, I do.",C,"Trả lời 'Are you ...?' dùng 'Yes, I am.'",2,TRUE,new
+G3-271,3,19,Outdoor activities,vocabulary,picture_choice,What is he doing? He's ___.,🚴,cycling,skating,skipping,swimming,A,Hình là đạp xe: 'cycling'.,1,TRUE,sgk
+G3-272,3,19,Outdoor activities,vocabulary,picture_choice,What is she doing? She's ___.,⛸️,skating,running,cooking,cycling,A,Hình là giày trượt: 'skating'.,1,TRUE,sgk
+G3-273,3,19,Outdoor activities,vocabulary,picture_choice,He's ___ a kite.,🪁,flying,drawing,playing,riding,A,Thả diều: 'flying a kite'.,2,TRUE,sgk
+G3-274,3,19,Outdoor activities,vocabulary,picture_choice,They're playing in the ___.,🌳,kitchen,bedroom,classroom,park,D,Cây xanh ngoài trời: 'park' (công viên).,1,TRUE,new
+G3-275,3,19,Outdoor activities,spelling,missing_letter,Choose the missing letter: c y c l _ n g,🚴,e,a,o,i,D,Từ đúng là 'cycling' (đạp xe).,1,TRUE,sgk
+G3-276,3,19,Outdoor activities,spelling,missing_letter,Choose the missing letter: s k _ t i n g,⛸️,a,i,e,o,A,Từ đúng là 'skating' (trượt patin).,1,TRUE,sgk
+G3-277,3,19,Outdoor activities,spelling,missing_letter,Choose the missing letter: s k _ p p i n g,,o,i,a,e,B,Từ đúng là 'skipping' (nhảy dây).,2,TRUE,new
+G3-278,3,19,Outdoor activities,vocabulary,odd_one_out,Choose the odd one out.,,kitchen,cycling,skating,skipping,A,'kitchen' là nơi chốn; các từ khác là hoạt động.,1,TRUE,new
+G3-279,3,19,Outdoor activities,vocabulary,odd_one_out,Choose the odd one out.,,garden,playground,kite,park,C,'kite' là đồ chơi; các từ khác là nơi chốn.,2,TRUE,new
+G3-280,3,19,Outdoor activities,grammar,fill_blank,She ___ skating.,,be,is,are,am,B,Với 'She' dùng 'is': 'She is skating.',1,TRUE,sgk
+G3-281,3,19,Outdoor activities,grammar,fill_blank,What's he ___? – He's cycling.,,doing,do,does,to do,A,'What's he doing?' = Bạn ấy đang làm gì?,2,TRUE,sgk
+G3-282,3,19,Outdoor activities,grammar,fill_blank,They're ___ badminton in the park.,,playing,play,plays,to play,A,Sau 'They're' dùng V-ing: 'playing'.,2,TRUE,new
+G3-283,3,19,Outdoor activities,grammar,response,What's she doing?,⛸️,"Yes, she is.",She's skating.,He's skating.,It's skating.,B,Bạn nữ đang trượt: 'She's skating.',2,TRUE,sgk
+G3-284,3,19,Outdoor activities,grammar,response,What are they doing?,🚴,"Yes, they are.",They're cycling.,They cycling.,He's cycling.,B,Câu đầy đủ: 'They're cycling.',2,TRUE,sgk
+G3-285,3,19,Outdoor activities,grammar,response,Let's fly a kite in the park!,,I'm a kite.,Great idea!,"Yes, I do.",It's a kite.,B,Đồng ý lời rủ: 'Great idea!',1,TRUE,new
+G3-286,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐘,giraffe,tiger,monkey,elephant,D,Hình là con voi: 'elephant'.,1,TRUE,sgk
+G3-287,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐯,horse,monkey,peacock,tiger,D,Hình là con hổ: 'tiger'.,1,TRUE,sgk
+G3-288,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🐒,giraffe,monkey,tiger,elephant,B,Hình là con khỉ: 'monkey'.,1,TRUE,sgk
+G3-289,3,20,At the zoo,vocabulary,picture_choice,What animal is this?,🦒,tiger,elephant,giraffe,horse,C,Hình là con hươu cao cổ: 'giraffe'.,1,TRUE,new
+G3-290,3,20,At the zoo,spelling,missing_letter,Choose the missing letter: t i g _ r,🐯,i,e,a,o,B,Từ đúng là 'tiger' (con hổ).,1,TRUE,sgk
+G3-291,3,20,At the zoo,spelling,missing_letter,Choose the missing letter: m o n k _ y,🐒,o,e,a,i,B,Từ đúng là 'monkey' (con khỉ).,1,TRUE,sgk
+G3-292,3,20,At the zoo,spelling,missing_letter,Choose the missing letter: e l e p h _ n t,🐘,e,o,i,a,D,Từ đúng là 'elephant' (con voi).,2,TRUE,new
+G3-293,3,20,At the zoo,vocabulary,odd_one_out,Choose the odd one out.,,monkey,elephant,kitchen,tiger,C,'kitchen' không phải con vật.,1,TRUE,new
+G3-294,3,20,At the zoo,vocabulary,odd_one_out,Choose the odd one out.,,giraffe,horse,zoo,tiger,C,'zoo' (vườn thú) là nơi chốn; các từ khác là con vật.,2,TRUE,new
+G3-295,3,20,At the zoo,grammar,fill_blank,What can you ___? – I can see a tiger.,,sees,seeing,to see,see,D,Sau 'can' dùng động từ nguyên mẫu: 'see'.,2,TRUE,sgk
+G3-296,3,20,At the zoo,grammar,fill_blank,The monkey ___ climbing.,,am,be,is,are,C,'The monkey' là số ít nên dùng 'is'.,2,TRUE,sgk
+G3-297,3,20,At the zoo,grammar,fill_blank,I can see two ___.,,an elephant,elephantes,elephant,elephants,D,Sau 'two' dùng danh từ số nhiều: 'elephants'.,2,TRUE,new
+G3-298,3,20,At the zoo,grammar,response,What can you see?,,I can see a horse.,It's a zoo.,"Yes, I can.",I'm a horse.,A,Hỏi nhìn thấy gì: 'I can see + con vật.',1,TRUE,sgk
+G3-299,3,20,At the zoo,grammar,response,What's the monkey doing?,🐒,It's a monkey.,"Yes, it is.",It's climbing.,They're climbing.,C,Con khỉ (số ít) đang leo trèo: 'It's climbing.',2,TRUE,sgk
+G3-300,3,20,At the zoo,grammar,response,Can you see the elephant?,,"Yes, I do.",It's big.,I can elephant.,"Yes, I can.",D,"Trả lời 'Can you ...?' dùng 'Yes, I can.'",2,TRUE,new

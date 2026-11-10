@@ -252,3 +252,7 @@ h1, h2, p { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* install tip (iPhone) */
+.install-tip { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--card); border: 2px dashed var(--faint); border-radius: 18px; font-size: 15px; color: var(--muted); }
+.install-tip b { color: var(--ink); }

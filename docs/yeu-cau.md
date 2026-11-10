@@ -37,5 +37,6 @@ Website PWA luyện đề trắc nghiệm Tiếng Anh cho học sinh tiểu họ
 
 ## Dữ liệu và triển khai
 - Câu hỏi quản lý bằng **Google Sheets**.
-- Website đưa lên **GitHub Pages** (kho `phuocbalo/english-exams`, công khai).
+- Website đưa lên **GitHub Pages** (kho `phuocbalo/english-exams`, công khai): https://phuocbalo.github.io/english-exams/
+- Cài được lên màn hình chính (PWA) và làm bài khi không có mạng (dùng bản câu hỏi đã tải lần gần nhất).
 - Nội dung: khoảng 60% bám sát sách giáo khoa, 40% câu hỏi mới.

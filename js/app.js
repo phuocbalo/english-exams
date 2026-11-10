@@ -41,6 +41,33 @@
     unitTab: 1
   };
 
+  /* ---------------- install as app ---------------- */
+  var installEvt = null;
+  function isStandalone() {
+    return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true;
+  }
+  function isIOS() {
+    return /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  }
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault(); installEvt = e;
+    if (route() === 'profiles') render();
+  });
+  window.addEventListener('appinstalled', function () { installEvt = null; if (route() === 'profiles') render(); });
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () { /* offline mode unavailable */ }); });
+  }
+  function installBlock() {
+    if (isStandalone()) return '';
+    if (installEvt) {
+      return '<button class="btn green" data-action="install" style="min-height:52px;font-size:19px">' + I.download + 'Install app on this phone</button>';
+    }
+    if (isIOS()) {
+      return '<div class="install-tip">' + I.share + '<p>To install: tap <b>Share</b>, then <b>Add to Home Screen</b>.</p></div>';
+    }
+    return '';
+  }
+
   function save() {
     store.set('profiles', state.profiles);
     store.set('profileId', state.profileId);
@@ -93,6 +120,8 @@
     cross: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
     search: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>',
     bulb: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg>',
+    download: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>',
+    share: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M6 11H5v10h14V11h-1"/></svg>',
     trash: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A3412" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6M14 11v6"/><path d="M6 7l1 13h10l1-13"/><path d="M9 7V4h6v3"/></svg>'
   };
 
@@ -323,6 +352,7 @@
       list +
       (canAdd ? '<a class="add-btn" href="#/new-profile">' + I.plus + 'Add profile</a>' : '') +
       '<p class="small" style="text-align:center">Up to ' + CFG.maxProfiles + ' profiles on this device</p>' +
+      installBlock() +
       (state.profiles.length ? '<p style="text-align:center"><button class="link-btn" data-action="manage">' + (state.manage ? 'Done' : 'Manage profiles') + '</button></p>' : '') +
       '</div>';
   }
@@ -515,6 +545,9 @@
     switch (a) {
       case 'sound':
         state.muted = !state.muted; save(); play('tap'); render(); break;
+      case 'install':
+        if (installEvt) { installEvt.prompt(); installEvt.userChoice.then(function () { installEvt = null; render(); }); }
+        break;
       case 'reload':
         location.reload(); break;
       case 'manage':
