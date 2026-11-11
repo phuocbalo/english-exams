@@ -1,6 +1,6 @@
 # Hani Desk – Yêu cầu sản phẩm (bản 1)
 
-Website PWA luyện đề trắc nghiệm Tiếng Anh cho học sinh tiểu học. Bản đầu tiên: **Lớp 3** (sách Global Success).
+Website PWA luyện đề trắc nghiệm Tiếng Anh cho học sinh tiểu học. Bản đầu tiên: **Lớp 3** (sách Global Success). Bản 2: thêm **Lớp 4** (sách Tiếng Anh 4 Global Success, 20 Unit, 300 câu, cùng cấu trúc đề với Lớp 3).
 
 ## Người dùng
 - Bé lớp 3 tự làm bài trên điện thoại.
@@ -9,7 +9,7 @@ Website PWA luyện đề trắc nghiệm Tiếng Anh cho học sinh tiểu họ
 - Mỗi máy tạo được 2–3 hồ sơ (tên + ảnh đại diện).
 
 ## Cấu trúc
-- Màn hình đầu có bước **chọn lớp** (bản 1 chỉ mở Lớp 3, các lớp khác hiện "Coming soon").
+- Màn hình đầu có bước **chọn lớp** (đang mở Lớp 3 và Lớp 4, các lớp khác hiện "Coming soon").
 - 3 khu vực luyện tập:
   1. **Bài tập theo Unit**: Unit 1 → Unit 20, mỗi Unit 1 đề. Không khóa Unit.
   2. **Ôn luyện học kỳ**: Học kỳ 1 (Unit 1–10), Học kỳ 2 (Unit 11–20).

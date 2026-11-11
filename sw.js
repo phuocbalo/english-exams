@@ -6,19 +6,21 @@
  *
  * When the app files change, bump VERSION so phones pick up the new copy.
  */
-var VERSION = 'hani-v5';
+var VERSION = 'hani-v6';
 var APP_FILES = [
   './',
   'index.html',
   'manifest.webmanifest',
-  'css/styles.css?v=5',
-  'js/config.js?v=5',
-  'js/app.js?v=5',
+  'css/styles.css?v=6',
+  'js/config.js?v=6',
+  'js/app.js?v=6',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/apple-touch-icon.png',
   'data/grade3.csv',
-  'data/exam-structure.csv'
+  'data/exam-structure.csv',
+  'data/grade4.csv',
+  'data/exam-structure-grade4.csv'
 ];
 var DATA_CACHE = 'hani-data';
 var FONT_CACHE = 'hani-fonts';

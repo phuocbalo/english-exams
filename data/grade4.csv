@@ -1,0 +1,301 @@
+id,grade,unit,unit_title,skill,type,question,image,option_a,option_b,option_c,option_d,answer,explanation,difficulty,active,source
+G4-001,4,1,My friends,vocabulary,picture_choice,Kangaroos come from this country. Where is it?,🦘,Japan,Britain,Thailand,Australia,D,Chuột túi đến từ nước Úc: 'Australia'.,1,TRUE,new
+G4-002,4,1,My friends,vocabulary,picture_choice,Mount Fuji is in this country. Where is it?,🗻,America,Japan,Singapore,Malaysia,B,Núi Phú Sĩ ở Nhật Bản: 'Japan'.,2,TRUE,new
+G4-003,4,1,My friends,vocabulary,picture_choice,The Statue of Liberty is in this country. Where is it?,🗽,America,Britain,Viet Nam,Thailand,A,Tượng Nữ thần Tự do ở nước Mỹ: 'America'.,2,TRUE,new
+G4-004,4,1,My friends,vocabulary,picture_choice,Hoa is from Viet Nam. She is ___.,👧,Thai,Japanese,Vietnamese,British,C,Người Việt Nam: 'Vietnamese'.,1,TRUE,sgk
+G4-005,4,1,My friends,spelling,missing_letter,Choose the missing letter: J a p _ n,,o,a,u,e,B,Từ đúng là 'Japan' (Nhật Bản).,1,TRUE,sgk
+G4-006,4,1,My friends,spelling,missing_letter,Choose the missing letter: B r i t _ i n,,o,i,e,a,D,Từ đúng là 'Britain' (nước Anh).,1,TRUE,sgk
+G4-007,4,1,My friends,spelling,missing_letter,Choose the missing letter: T h a i l _ n d,,u,e,o,a,D,Từ đúng là 'Thailand' (Thái Lan).,1,TRUE,new
+G4-008,4,1,My friends,vocabulary,odd_one_out,Choose the odd one out.,,Vietnamese,Japan,Australia,Malaysia,A,"'Vietnamese' là quốc tịch, các từ còn lại là tên nước.",2,TRUE,new
+G4-009,4,1,My friends,vocabulary,odd_one_out,Choose the odd one out.,,British,Thai,America,Japanese,C,"'America' là tên nước, các từ còn lại là quốc tịch.",2,TRUE,new
+G4-010,4,1,My friends,grammar,fill_blank,Where are you ___? – I'm from Singapore.,,in,at,to,from,D,Hỏi quê quán: 'Where are you from?',1,TRUE,sgk
+G4-011,4,1,My friends,grammar,fill_blank,I'm from Japan. I'm ___.,,Japanese,Japan,America,Thai,A,Người Nhật: 'Japanese'.,1,TRUE,new
+G4-012,4,1,My friends,grammar,fill_blank,Where ___ Mary from? – She's from Australia.,,is,are,am,do,A,Chủ ngữ số ít (Mary) dùng 'is'.,1,TRUE,sgk
+G4-013,4,1,My friends,grammar,response,Where are you from?,,It's Monday.,"I'm fine, thanks.",I'm from Malaysia.,I'm ten.,C,Trả lời 'Where are you from?' bằng 'I'm from + tên nước'.,1,TRUE,sgk
+G4-014,4,1,My friends,grammar,response,What nationality are you?,,It's a book.,I'm nine years old.,I'm Thai.,"Yes, I am.",C,"Hỏi quốc tịch, trả lời 'I'm + quốc tịch'.",1,TRUE,sgk
+G4-015,4,1,My friends,grammar,response,"Ben says: ""Hi, I'm Ben. I'm from Britain."" What does Mai say?",,"I'm fine, thank you.","Hi, Ben. Nice to meet you.","Goodbye, Ben.","Yes, it is.",B,Gặp bạn mới thì chào và nói 'Nice to meet you.',1,TRUE,new
+G4-016,4,2,Time and daily routines,vocabulary,picture_choice,What time is it?,🕖,It's eight o'clock.,It's seven thirty.,It's seven o'clock.,It's six o'clock.,C,"Kim ngắn chỉ số 7, kim dài chỉ số 12: 7 giờ đúng.",1,TRUE,sgk
+G4-017,4,2,Time and daily routines,vocabulary,picture_choice,What time is it?,🕤,It's nine o'clock.,It's ten thirty.,It's nine thirty.,It's three thirty.,C,Đồng hồ chỉ 9 giờ 30: 'nine thirty'.,2,TRUE,sgk
+G4-018,4,2,Time and daily routines,vocabulary,picture_choice,What does Mai do in the morning?,🥣,She has breakfast.,She goes to school.,She gets up.,She goes to bed.,A,Bát ngũ cốc: ăn sáng 'have breakfast'.,1,TRUE,sgk
+G4-019,4,2,Time and daily routines,vocabulary,picture_choice,It's nine o'clock in the evening. What does Tom do?,🛌,He gets up.,He goes to bed.,He has breakfast.,He goes to school.,B,Buổi tối 9 giờ thì đi ngủ: 'go to bed'.,1,TRUE,new
+G4-020,4,2,Time and daily routines,spelling,missing_letter,Choose the missing letter: b r e a k f _ s t,,e,a,i,o,B,Từ đúng là 'breakfast' (bữa sáng).,1,TRUE,sgk
+G4-021,4,2,Time and daily routines,spelling,missing_letter,Choose the missing letter: o ' c l _ c k,,u,i,a,o,D,Từ đúng là 'o'clock' (giờ đúng).,1,TRUE,sgk
+G4-022,4,2,Time and daily routines,spelling,missing_letter,Choose the missing letter: f i f t _ e n,,i,e,y,a,B,Từ đúng là 'fifteen' (mười lăm).,1,TRUE,new
+G4-023,4,2,Time and daily routines,vocabulary,odd_one_out,Choose the odd one out.,,lunch,dinner,breakfast,thirty,D,"'thirty' là số, các từ còn lại là bữa ăn.",1,TRUE,new
+G4-024,4,2,Time and daily routines,vocabulary,odd_one_out,Choose the odd one out.,,fifteen,thirty,forty-five,get up,D,"'get up' là hoạt động, các từ còn lại là số phút.",2,TRUE,new
+G4-025,4,2,Time and daily routines,grammar,fill_blank,What time ___ it? – It's ten o'clock.,,are,am,is,do,C,Hỏi giờ: 'What time is it?',1,TRUE,sgk
+G4-026,4,2,Time and daily routines,grammar,fill_blank,I get up ___ six o'clock.,,at,on,in,to,A,Trước giờ cụ thể dùng 'at'.,1,TRUE,new
+G4-027,4,2,Time and daily routines,grammar,fill_blank,What time do you ___ to school? – At 6:45.,,go,get,have,goes,A,Sau 'do you' dùng động từ nguyên mẫu: 'go to school'.,2,TRUE,sgk
+G4-028,4,2,Time and daily routines,grammar,response,What time is it?,,It's eight fifteen.,At school.,I'm fine.,It's Monday.,A,"Hỏi giờ, trả lời 'It's + giờ'.",1,TRUE,sgk
+G4-029,4,2,Time and daily routines,grammar,response,What time do you go to bed?,,At nine o'clock.,It's my bed.,I go to school.,"Yes, I do.",A,"Hỏi mấy giờ đi ngủ, trả lời bằng giờ: 'At nine o'clock.'",1,TRUE,sgk
+G4-030,4,2,Time and daily routines,grammar,response,What time do you have breakfast?,,I have breakfast at six thirty.,I have bread.,In the kitchen.,It's breakfast.,A,"Hỏi giờ ăn sáng, trả lời 'I have breakfast at + giờ'.",2,TRUE,new
+G4-031,4,3,My week,vocabulary,picture_choice,What does Linda do on Sundays?,🎧,She plays football.,She listens to music.,She studies at school.,She has breakfast.,B,Tai nghe: nghe nhạc 'listen to music'.,1,TRUE,sgk
+G4-032,4,3,My week,vocabulary,picture_choice,What do you do on Mondays?,🏫,I listen to music.,I go to bed.,I swim.,I study at school.,D,Trường học: 'study at school'.,1,TRUE,sgk
+G4-033,4,3,My week,vocabulary,picture_choice,Today is Friday. What day is tomorrow?,📅,Thursday,Saturday,Sunday,Monday,B,Sau thứ Sáu (Friday) là thứ Bảy (Saturday).,2,TRUE,new
+G4-034,4,3,My week,vocabulary,picture_choice,What does Nam do on Saturdays?,⚽,He listens to music.,He has breakfast.,He plays football.,He studies at school.,C,Quả bóng: đá bóng 'play football'.,1,TRUE,new
+G4-035,4,3,My week,spelling,missing_letter,Choose the missing letter: T u _ s d a y,,i,a,o,e,D,Từ đúng là 'Tuesday' (thứ Ba).,1,TRUE,sgk
+G4-036,4,3,My week,spelling,missing_letter,Choose the missing letter: W e d n _ s d a y,,a,e,i,o,B,Từ đúng là 'Wednesday' (thứ Tư).,2,TRUE,sgk
+G4-037,4,3,My week,spelling,missing_letter,Choose the missing letter: T h u r s d _ y,,o,e,i,a,D,Từ đúng là 'Thursday' (thứ Năm).,1,TRUE,new
+G4-038,4,3,My week,vocabulary,odd_one_out,Choose the odd one out.,,music,Friday,Monday,Sunday,A,"'music' là âm nhạc, các từ còn lại là ngày trong tuần.",1,TRUE,new
+G4-039,4,3,My week,vocabulary,odd_one_out,Choose the odd one out.,,Thursday,listen,Tuesday,Saturday,B,"'listen' là động từ, các từ còn lại là ngày trong tuần.",1,TRUE,new
+G4-040,4,3,My week,grammar,fill_blank,What day is it today? – It's ___.,,at Wednesday,on Wednesday,Wednesday,in Wednesday,C,"Trả lời 'It's + thứ', không dùng giới từ.",2,TRUE,sgk
+G4-041,4,3,My week,grammar,fill_blank,I listen to music ___ Saturdays.,,on,in,at,to,A,Trước ngày trong tuần dùng 'on'.,1,TRUE,new
+G4-042,4,3,My week,grammar,fill_blank,What ___ you do on Sundays?,,do,is,does,are,A,Chủ ngữ 'you' dùng trợ động từ 'do'.,1,TRUE,sgk
+G4-043,4,3,My week,grammar,response,What day is it today?,,It's Tuesday.,I study at school.,It's ten o'clock.,I'm from Japan.,A,"Hỏi thứ, trả lời 'It's + thứ'.",1,TRUE,sgk
+G4-044,4,3,My week,grammar,response,What do you do on Fridays?,,I study at school.,It's Friday.,At seven o'clock.,"Yes, I am.",A,"Hỏi làm gì vào thứ Sáu, trả lời bằng hoạt động.",1,TRUE,sgk
+G4-045,4,3,My week,grammar,response,Do you study at school on Sundays?,,"No, I'm not.","No, I don't.","Yes, it is.",It's Sunday.,B,"Câu hỏi 'Do you...?' trả lời 'Yes, I do.' hoặc 'No, I don't.'",2,TRUE,new
+G4-046,4,4,My birthday party,vocabulary,picture_choice,What would you like?,🍇,I'd like some grapes.,I'd like some water.,I'd like some chips.,I'd like some jam.,A,Hình chùm nho: 'grapes'.,1,TRUE,sgk
+G4-047,4,4,My birthday party,vocabulary,picture_choice,What's this?,🍟,grapes,chips,juice,jam,B,Khoai tây chiên: 'chips'.,1,TRUE,sgk
+G4-048,4,4,My birthday party,vocabulary,picture_choice,What's this?,🧃,chips,juice,jam,water,B,Hộp nước ép: 'juice'.,1,TRUE,sgk
+G4-049,4,4,My birthday party,vocabulary,picture_choice,This drink is made from lemons. What is it?,🍋,water,chips,lemonade,milk,C,Nước chanh: 'lemonade'.,2,TRUE,new
+G4-050,4,4,My birthday party,spelling,missing_letter,Choose the missing letter: F e b r _ a r y,,u,a,o,e,A,Từ đúng là 'February' (tháng Hai).,2,TRUE,sgk
+G4-051,4,4,My birthday party,spelling,missing_letter,Choose the missing letter: b i r t h d _ y,,e,o,a,i,C,Từ đúng là 'birthday' (sinh nhật).,1,TRUE,sgk
+G4-052,4,4,My birthday party,spelling,missing_letter,Choose the missing letter: l e m o n _ d e,,a,o,i,e,A,Từ đúng là 'lemonade' (nước chanh).,2,TRUE,new
+G4-053,4,4,My birthday party,vocabulary,odd_one_out,Choose the odd one out.,,jam,grapes,chips,April,D,"'April' là tháng, các từ còn lại là đồ ăn.",1,TRUE,new
+G4-054,4,4,My birthday party,vocabulary,odd_one_out,Choose the odd one out.,,lemonade,water,juice,chips,D,"'chips' là đồ ăn, các từ còn lại là đồ uống.",1,TRUE,new
+G4-055,4,4,My birthday party,grammar,fill_blank,When's your birthday? – It's ___ March.,,in,on,to,at,A,Trước tên tháng dùng 'in'.,1,TRUE,sgk
+G4-056,4,4,My birthday party,grammar,fill_blank,"Would you like ___ juice? – Yes, please.",,a,an,some,many,C,Mời đồ uống dùng 'some': 'Would you like some juice?',2,TRUE,new
+G4-057,4,4,My birthday party,grammar,fill_blank,___ is your birthday? – It's in May.,,When,What,Who,Where,A,Hỏi thời gian (khi nào) dùng 'When'.,1,TRUE,sgk
+G4-058,4,4,My birthday party,grammar,response,When's your birthday?,,It's in January.,"Yes, please.",It's my party.,I'm ten.,A,"Hỏi sinh nhật, trả lời 'It's in + tháng'.",1,TRUE,sgk
+G4-059,4,4,My birthday party,grammar,response,Would you like some chips?,,"Yes, I do.","Yes, please.",I'm fine.,It's in May.,B,"Đáp lại lời mời: 'Yes, please.' hoặc 'No, thanks.'",1,TRUE,sgk
+G4-060,4,4,My birthday party,grammar,response,"Happy birthday, Mai!",,You're welcome.,Thank you very much.,Goodbye.,Happy birthday!,B,Được chúc mừng sinh nhật thì nói cảm ơn.,1,TRUE,new
+G4-061,4,5,Things we can do,vocabulary,picture_choice,What can she do?,🏊,She can ride a bike.,She can roller skate.,She can swim.,She can cook.,C,Hình bơi lội: 'swim'.,1,TRUE,sgk
+G4-062,4,5,Things we can do,vocabulary,picture_choice,What can he do?,🚴,He can play the piano.,He can swim.,He can ride a bike.,He can ride a horse.,C,Hình đạp xe: 'ride a bike'.,1,TRUE,sgk
+G4-063,4,5,Things we can do,vocabulary,picture_choice,What can Linda do? She can ___.,🎹,swim,cook,play the piano,play the guitar,C,Đàn phím: 'play the piano'.,1,TRUE,sgk
+G4-064,4,5,Things we can do,vocabulary,picture_choice,What can Tom do? He can ___.,🐴,roller skate,ride a bike,cook,ride a horse,D,Con ngựa: cưỡi ngựa 'ride a horse'.,1,TRUE,new
+G4-065,4,5,Things we can do,spelling,missing_letter,Choose the missing letter: g u i t _ r,,a,o,e,u,A,Từ đúng là 'guitar' (đàn ghi-ta).,1,TRUE,sgk
+G4-066,4,5,Things we can do,spelling,missing_letter,Choose the missing letter: p i _ n o,,u,e,o,a,D,Từ đúng là 'piano' (đàn pi-a-nô).,1,TRUE,sgk
+G4-067,4,5,Things we can do,spelling,missing_letter,Choose the missing letter: s k _ t e,,a,o,u,i,A,Từ đúng là 'skate' (trượt patin: roller skate).,1,TRUE,new
+G4-068,4,5,Things we can do,vocabulary,odd_one_out,Choose the odd one out.,,piano,cook,skate,swim,A,"'piano' là danh từ (đàn), các từ còn lại là hoạt động.",2,TRUE,new
+G4-069,4,5,Things we can do,vocabulary,odd_one_out,Choose the odd one out.,,horse,piano,drum,guitar,A,"'horse' là con vật, các từ còn lại là nhạc cụ.",1,TRUE,new
+G4-070,4,5,Things we can do,grammar,fill_blank,"Can you swim? – Yes, I ___.",,can,can't,am,do,A,"Trả lời câu 'Can you...?': 'Yes, I can.'",1,TRUE,sgk
+G4-071,4,5,Things we can do,grammar,fill_blank,"I can play the piano, ___ I can't play the guitar.",,or,and,so,but,D,Hai ý trái ngược nhau dùng 'but' (nhưng).,2,TRUE,new
+G4-072,4,5,Things we can do,grammar,fill_blank,What ___ you do? – I can cook.,,is,does,are,can,D,Hỏi khả năng: 'What can you do?',1,TRUE,sgk
+G4-073,4,5,Things we can do,grammar,response,Can you ride a horse?,,"No, I don't.","No, I can't.","Yes, I am.",I can a horse.,B,"Câu 'Can you...?' trả lời 'Yes, I can.' hoặc 'No, I can't.'",1,TRUE,sgk
+G4-074,4,5,Things we can do,grammar,response,What can your sister do?,,"Yes, she can.",She is nine.,She can roller skate.,She can't.,C,"Hỏi bạn ấy làm được gì, trả lời 'She can + hoạt động'.",1,TRUE,sgk
+G4-075,4,5,Things we can do,grammar,response,Can you play the guitar?,,"Yes, I do.","Yes, I can.",I play.,"No, it isn't.",B,"Câu 'Can you...?' trả lời 'Yes, I can.'",1,TRUE,new
+G4-076,4,6,Our school facilities,vocabulary,picture_choice,Where is your school? It's in the ___.,🏔️,town,mountains,village,city,B,Hình núi: 'mountains'.,1,TRUE,sgk
+G4-077,4,6,Our school facilities,vocabulary,picture_choice,Where is Nam's school? It's in the ___.,🏙️,village,city,garden,mountains,B,Hình nhà cao tầng: thành phố 'city'.,1,TRUE,sgk
+G4-078,4,6,Our school facilities,vocabulary,picture_choice,We use computers in the ___.,💻,playground,garden,computer room,library,C,Học máy tính ở phòng máy: 'computer room'.,1,TRUE,sgk
+G4-079,4,6,Our school facilities,vocabulary,picture_choice,There are many flowers in our school ___.,🌷,computer room,classroom,garden,library,C,Hoa trồng ở vườn trường: 'garden'.,1,TRUE,new
+G4-080,4,6,Our school facilities,spelling,missing_letter,Choose the missing letter: v i l l _ g e,,e,a,o,i,B,Từ đúng là 'village' (ngôi làng).,1,TRUE,sgk
+G4-081,4,6,Our school facilities,spelling,missing_letter,Choose the missing letter: p l a y g r _ u n d,,a,u,e,o,D,Từ đúng là 'playground' (sân chơi).,1,TRUE,sgk
+G4-082,4,6,Our school facilities,spelling,missing_letter,Choose the missing letter: c o m p u t _ r,,o,i,a,e,D,Từ đúng là 'computer' (máy tính).,1,TRUE,new
+G4-083,4,6,Our school facilities,vocabulary,odd_one_out,Choose the odd one out.,,town,village,city,playground,D,"'playground' là sân chơi ở trường, các từ còn lại là nơi chốn (thành phố, thị trấn, làng).",2,TRUE,new
+G4-084,4,6,Our school facilities,vocabulary,odd_one_out,Choose the odd one out.,,library,garden,computer room,mountains,D,'mountains' (núi) không phải là nơi trong trường học.,1,TRUE,new
+G4-085,4,6,Our school facilities,grammar,fill_blank,Where's your school? – It's ___ the village.,,in,to,on,at,A,Ở trong làng: 'in the village'.,1,TRUE,sgk
+G4-086,4,6,Our school facilities,grammar,fill_blank,"Is ___ a garden at your school? – Yes, there is.",,this,there,it,they,B,Hỏi có cái gì không: 'Is there a...?',1,TRUE,new
+G4-087,4,6,Our school facilities,grammar,fill_blank,How many computer rooms are there? – There ___ two.,,be,are,is,am,B,Số nhiều (two) dùng 'There are'.,2,TRUE,sgk
+G4-088,4,6,Our school facilities,grammar,response,Is there a playground at your school?,,"Yes, it is.","Yes, I am.","Yes, there is.",There are two.,C,"Câu 'Is there...?' trả lời 'Yes, there is.'",1,TRUE,sgk
+G4-089,4,6,Our school facilities,grammar,response,Where's your school?,,"Yes, it is.",It's a school.,It's big.,It's in the town.,D,"Hỏi trường ở đâu, trả lời 'It's in the + nơi'.",1,TRUE,sgk
+G4-090,4,6,Our school facilities,grammar,response,How many classrooms are there at your school?,,There is a garden.,"Yes, there are.",It's in the city.,There are twenty.,D,"Hỏi số lượng, trả lời 'There are + số'.",2,TRUE,new
+G4-091,4,7,Our timetables,vocabulary,picture_choice,What subject is it?,🎨,art,music,science,maths,A,Bảng màu vẽ: môn Mĩ thuật 'art'.,1,TRUE,sgk
+G4-092,4,7,Our timetables,vocabulary,picture_choice,What subject is it?,🎵,English,art,music,Vietnamese,C,Nốt nhạc: môn Âm nhạc 'music'.,1,TRUE,sgk
+G4-093,4,7,Our timetables,vocabulary,picture_choice,What subject is it?,🔬,art,science,music,maths,B,Kính hiển vi: môn Khoa học 'science'.,1,TRUE,sgk
+G4-094,4,7,Our timetables,vocabulary,picture_choice,We count and add numbers in this subject.,➕,maths,English,music,art,A,Cộng trừ số: môn Toán 'maths'.,1,TRUE,new
+G4-095,4,7,Our timetables,spelling,missing_letter,Choose the missing letter: s c i _ n c e,,o,a,e,i,C,Từ đúng là 'science' (Khoa học).,2,TRUE,sgk
+G4-096,4,7,Our timetables,spelling,missing_letter,Choose the missing letter: m _ t h s,,i,a,e,o,B,Từ đúng là 'maths' (Toán).,1,TRUE,sgk
+G4-097,4,7,Our timetables,spelling,missing_letter,Choose the missing letter: E n g l _ s h,,e,u,a,i,D,Từ đúng là 'English' (Tiếng Anh).,1,TRUE,new
+G4-098,4,7,Our timetables,vocabulary,odd_one_out,Choose the odd one out.,,maths,Monday,art,music,B,"'Monday' là thứ, các từ còn lại là môn học.",1,TRUE,new
+G4-099,4,7,Our timetables,vocabulary,odd_one_out,Choose the odd one out.,,teacher,science,English,Vietnamese,A,"'teacher' là giáo viên, các từ còn lại là môn học.",1,TRUE,new
+G4-100,4,7,Our timetables,grammar,fill_blank,What subjects ___ you have today?,,is,are,does,do,D,Chủ ngữ 'you' dùng trợ động từ 'do'.,1,TRUE,sgk
+G4-101,4,7,Our timetables,grammar,fill_blank,When do you have music? – I have it ___ Tuesdays.,,at,by,in,on,D,Trước ngày trong tuần dùng 'on'.,1,TRUE,new
+G4-102,4,7,Our timetables,grammar,fill_blank,We ___ maths on Mondays and Fridays.,,have,having,has,is,A,Chủ ngữ 'We' dùng 'have'.,2,TRUE,sgk
+G4-103,4,7,Our timetables,grammar,response,What subjects do you have today?,,I like music.,It's Monday.,I have maths and English.,"Yes, I do.",C,"Hỏi hôm nay có môn gì, trả lời 'I have + môn học'.",1,TRUE,sgk
+G4-104,4,7,Our timetables,grammar,response,When do you have art?,,I have it at school.,It's art.,I have it on Thursdays.,"Yes, I have.",C,"Hỏi khi nào học, trả lời 'I have it on + thứ'.",2,TRUE,sgk
+G4-105,4,7,Our timetables,grammar,response,Do you have science today?,,I have it.,"Yes, it is.","Yes, I am.","Yes, I do.",D,"Câu 'Do you...?' trả lời 'Yes, I do.'",1,TRUE,new
+G4-106,4,8,My favourite subjects,vocabulary,picture_choice,We run and play games in this subject. What is it?,🏃,IT,PE,maths,art,B,Chạy và chơi thể thao: môn Thể dục 'PE'.,1,TRUE,sgk
+G4-107,4,8,My favourite subjects,vocabulary,picture_choice,We use computers in this subject. What is it?,🖥️,PE,music,IT,Vietnamese,C,Dùng máy tính: môn Tin học 'IT'.,1,TRUE,sgk
+G4-108,4,8,My favourite subjects,vocabulary,picture_choice,Miss Hien teaches English. She is my ___.,👩‍🏫,music teacher,PE teacher,maths teacher,English teacher,D,Cô dạy Tiếng Anh: 'English teacher'.,1,TRUE,new
+G4-109,4,8,My favourite subjects,vocabulary,picture_choice,Mr Long teaches maths. He is my ___.,👨‍🏫,English teacher,IT teacher,maths teacher,art teacher,C,Thầy dạy Toán: 'maths teacher'.,1,TRUE,new
+G4-110,4,8,My favourite subjects,spelling,missing_letter,Choose the missing letter: s u b j _ c t,,a,o,i,e,D,Từ đúng là 'subject' (môn học).,1,TRUE,sgk
+G4-111,4,8,My favourite subjects,spelling,missing_letter,Choose the missing letter: f a v o u r _ t e,,a,e,i,o,C,Từ đúng là 'favourite' (yêu thích).,2,TRUE,sgk
+G4-112,4,8,My favourite subjects,spelling,missing_letter,Choose the missing letter: b e c a _ s e,,o,u,e,a,B,Từ đúng là 'because' (bởi vì).,2,TRUE,new
+G4-113,4,8,My favourite subjects,vocabulary,odd_one_out,Choose the odd one out.,,IT,maths,PE,because,D,'because' (bởi vì) không phải môn học.,1,TRUE,new
+G4-114,4,8,My favourite subjects,vocabulary,odd_one_out,Choose the odd one out.,,art,swim,science,IT,B,"'swim' là hoạt động, các từ còn lại là môn học.",1,TRUE,new
+G4-115,4,8,My favourite subjects,grammar,fill_blank,What's your favourite subject? – ___ IT.,,He's,They're,I'm,It's,D,Trả lời môn yêu thích: 'It's + môn học'.,1,TRUE,sgk
+G4-116,4,8,My favourite subjects,grammar,fill_blank,Why do you like PE? – ___ I like sports.,,But,And,Why,Because,D,Trả lời câu hỏi 'Why' bằng 'Because'.,1,TRUE,new
+G4-117,4,8,My favourite subjects,grammar,fill_blank,Who's ___ English teacher? – Miss Hoa.,,your,you,yours,you're,A,Trước danh từ dùng tính từ sở hữu 'your'.,2,TRUE,sgk
+G4-118,4,8,My favourite subjects,grammar,response,What's your favourite subject?,,It's maths.,I'm Mai.,"Yes, it is.",It's Monday.,A,"Hỏi môn yêu thích, trả lời 'It's + môn học'.",1,TRUE,sgk
+G4-119,4,8,My favourite subjects,grammar,response,Why do you like music?,,"Yes, I do.",I like music.,It's music.,Because I like singing.,D,Câu hỏi 'Why' trả lời bằng 'Because...',1,TRUE,sgk
+G4-120,4,8,My favourite subjects,grammar,response,Who's your maths teacher?,,It's maths.,"Yes, he is.",He's tall.,It's Mr Nam.,D,"Hỏi ai là giáo viên, trả lời bằng tên người.",1,TRUE,new
+G4-121,4,9,Our sports day,vocabulary,picture_choice,Christmas is in ___.,🎄,December,November,July,June,A,Lễ Giáng sinh vào tháng Mười Hai: 'December'.,2,TRUE,new
+G4-122,4,9,Our sports day,vocabulary,picture_choice,Pupils run and play sports at school on this day. What is it?,🏅,sports day,Teachers' Day,summer holiday,birthday party,A,Ngày hội thể thao: 'sports day'.,1,TRUE,sgk
+G4-123,4,9,Our sports day,vocabulary,picture_choice,What sport is it?,🏀,basketball,tennis,badminton,football,A,Quả bóng rổ: 'basketball'.,1,TRUE,new
+G4-124,4,9,Our sports day,vocabulary,picture_choice,What sport is it?,⚽,football,table tennis,basketball,volleyball,A,Quả bóng đá: 'football'.,1,TRUE,sgk
+G4-125,4,9,Our sports day,spelling,missing_letter,Choose the missing letter: S e p t _ m b e r,,e,o,i,a,A,Từ đúng là 'September' (tháng Chín).,1,TRUE,sgk
+G4-126,4,9,Our sports day,spelling,missing_letter,Choose the missing letter: A u g _ s t,,o,a,u,e,C,Từ đúng là 'August' (tháng Tám).,1,TRUE,sgk
+G4-127,4,9,Our sports day,spelling,missing_letter,Choose the missing letter: O c t _ b e r,,a,e,o,u,C,Từ đúng là 'October' (tháng Mười).,1,TRUE,new
+G4-128,4,9,Our sports day,vocabulary,odd_one_out,Choose the odd one out.,,August,July,June,Monday,D,"'Monday' là thứ, các từ còn lại là tháng.",1,TRUE,new
+G4-129,4,9,Our sports day,vocabulary,odd_one_out,Choose the odd one out.,,volleyball,December,football,basketball,B,"'December' là tháng, các từ còn lại là môn thể thao.",1,TRUE,new
+G4-130,4,9,Our sports day,grammar,fill_blank,When's sports day? – It's ___ October.,,to,at,on,in,D,Trước tên tháng dùng 'in'.,1,TRUE,sgk
+G4-131,4,9,Our sports day,grammar,fill_blank,What ___ is it? – It's June.,,day,colour,time,month,D,June là tháng nên hỏi 'What month is it?',2,TRUE,new
+G4-132,4,9,Our sports day,grammar,fill_blank,"Is your sports day in July? – No, it ___.",,aren't,can't,doesn't,isn't,D,"Câu hỏi 'Is...?' trả lời 'No, it isn't.'",2,TRUE,sgk
+G4-133,4,9,Our sports day,grammar,response,When's sports day?,,"Yes, it is.",It's football.,It's sunny.,It's in September.,D,"Hỏi khi nào, trả lời 'It's in + tháng'.",1,TRUE,sgk
+G4-134,4,9,Our sports day,grammar,response,Is sports day in June?,,"Yes, I do.","Yes, there is.","Yes, I am.","Yes, it is.",D,"Câu 'Is...?' trả lời 'Yes, it is.'",1,TRUE,sgk
+G4-135,4,9,Our sports day,grammar,response,What month comes after July?,,August.,Monday.,March.,June.,A,Sau tháng Bảy (July) là tháng Tám (August).,2,TRUE,new
+G4-136,4,10,Our summer holidays,vocabulary,picture_choice,Where were you last summer? I was at the ___.,🏖️,campsite,beach,school,countryside,B,Bãi cát và ô: bãi biển 'beach'.,1,TRUE,sgk
+G4-137,4,10,Our summer holidays,vocabulary,picture_choice,Where were you last summer? I was at the ___.,⛺,city,countryside,beach,campsite,D,Lều trại: khu cắm trại 'campsite'.,1,TRUE,sgk
+G4-138,4,10,Our summer holidays,vocabulary,picture_choice,Where was Minh last summer? He was in the ___.,🌾,countryside,beach,campsite,city,A,Đồng lúa: vùng quê 'countryside'.,1,TRUE,sgk
+G4-139,4,10,Our summer holidays,vocabulary,picture_choice,Lucy was in Tokyo last summer. Which country was she in?,🗼,Thailand,Japan,Australia,America,B,Tokyo là thủ đô của Nhật Bản (Japan).,2,TRUE,new
+G4-140,4,10,Our summer holidays,spelling,missing_letter,Choose the missing letter: c a m p s _ t e,,e,a,i,o,C,Từ đúng là 'campsite' (khu cắm trại).,1,TRUE,sgk
+G4-141,4,10,Our summer holidays,spelling,missing_letter,Choose the missing letter: y e s t e r d _ y,,o,a,e,i,B,Từ đúng là 'yesterday' (hôm qua).,1,TRUE,sgk
+G4-142,4,10,Our summer holidays,spelling,missing_letter,Choose the missing letter: c o u n t r y s _ d e,,o,a,e,i,D,Từ đúng là 'countryside' (vùng quê).,2,TRUE,new
+G4-143,4,10,Our summer holidays,vocabulary,odd_one_out,Choose the odd one out.,,Bangkok,Tokyo,beach,Sydney,C,"'beach' là bãi biển, các từ còn lại là tên thành phố.",2,TRUE,new
+G4-144,4,10,Our summer holidays,vocabulary,odd_one_out,Choose the odd one out.,,countryside,campsite,beach,swim,D,"'swim' là hoạt động, các từ còn lại là nơi chốn.",1,TRUE,new
+G4-145,4,10,Our summer holidays,grammar,fill_blank,Where ___ you last summer? – I was in Bangkok.,,were,was,are,is,A,Quá khứ với 'you' dùng 'were'.,2,TRUE,sgk
+G4-146,4,10,Our summer holidays,grammar,fill_blank,I ___ at the beach yesterday.,,is,was,were,am,B,"Có 'yesterday' (quá khứ), chủ ngữ 'I' dùng 'was'.",2,TRUE,new
+G4-147,4,10,Our summer holidays,grammar,fill_blank,What ___ you do there? – I swam in the sea.,,did,do,does,were,A,Hỏi về việc đã làm trong quá khứ dùng 'did'.,3,TRUE,sgk
+G4-148,4,10,Our summer holidays,grammar,response,Where were you last summer?,,I was at the campsite.,I am at school.,I like summer.,"Yes, I was.",A,"Hỏi đã ở đâu, trả lời 'I was at/in + nơi'.",1,TRUE,sgk
+G4-149,4,10,Our summer holidays,grammar,response,What did you do at the beach?,,I swam and played games.,I was at the beach.,It's a beach.,"Yes, I did.",A,"Hỏi đã làm gì, trả lời bằng động từ quá khứ.",2,TRUE,sgk
+G4-150,4,10,Our summer holidays,grammar,response,Were you in the countryside last summer?,,"Yes, I am.","Yes, I were.","Yes, I did.","Yes, I was.",D,"Câu 'Were you...?' trả lời 'Yes, I was.'",2,TRUE,new
+G4-151,4,11,My home,vocabulary,picture_choice,Many cars go by. The street is ___.,🚗,slim,small,quiet,busy,D,Nhiều xe cộ: đông đúc 'busy'.,1,TRUE,sgk
+G4-152,4,11,My home,vocabulary,picture_choice,Lan's village has no cars and very few people. It's ___.,🌳,noisy,quiet,big,busy,B,"Ít người, không xe: yên tĩnh 'quiet'.",1,TRUE,sgk
+G4-153,4,11,My home,vocabulary,picture_choice,I live in a ___.,🏢,garden,house,school,flat,D,Tòa nhà nhiều căn hộ: 'flat'.,2,TRUE,new
+G4-154,4,11,My home,vocabulary,picture_choice,There are lots of loud sounds here. It is ___.,📢,tall,quiet,noisy,slim,C,Nhiều tiếng ồn: ồn ào 'noisy'.,1,TRUE,new
+G4-155,4,11,My home,spelling,missing_letter,Choose the missing letter: s t r e _ t,,a,o,i,e,D,Từ đúng là 'street' (đường phố).,1,TRUE,sgk
+G4-156,4,11,My home,spelling,missing_letter,Choose the missing letter: n o i s _,,e,i,a,y,D,Từ đúng là 'noisy' (ồn ào).,1,TRUE,sgk
+G4-157,4,11,My home,spelling,missing_letter,Choose the missing letter: q u i _ t,,a,o,u,e,D,Từ đúng là 'quiet' (yên tĩnh).,2,TRUE,new
+G4-158,4,11,My home,vocabulary,odd_one_out,Choose the odd one out.,,busy,road,quiet,noisy,B,"'road' là con đường, các từ còn lại là tính từ miêu tả.",1,TRUE,new
+G4-159,4,11,My home,vocabulary,odd_one_out,Choose the odd one out.,,street,road,village,noisy,D,"'noisy' là tính từ, các từ còn lại là nơi chốn.",1,TRUE,new
+G4-160,4,11,My home,grammar,fill_blank,Where do you live? – I live ___ 25 Tran Hung Dao Street.,,on,of,at,to,C,Có số nhà dùng 'at': 'at 25 Tran Hung Dao Street'.,2,TRUE,sgk
+G4-161,4,11,My home,grammar,fill_blank,I live ___ Hai Ba Trung Street.,,to,at,of,in,D,Chỉ có tên đường (không số nhà) dùng 'in'.,2,TRUE,sgk
+G4-162,4,11,My home,grammar,fill_blank,What's the street ___? – It's quiet.,,likes,like,do,look,B,Hỏi miêu tả: 'What's the street like?',2,TRUE,sgk
+G4-163,4,11,My home,grammar,response,Where do you live?,,I like my street.,It's busy.,"Yes, I do.",I live at 10 Le Loi Street.,D,"Hỏi sống ở đâu, trả lời 'I live at/in + địa chỉ'.",1,TRUE,sgk
+G4-164,4,11,My home,grammar,response,What's your street like?,,It's at 12 Hoa Binh Street.,"Yes, it is.",I like it.,It's busy and noisy.,D,"Hỏi con đường như thế nào, trả lời bằng tính từ miêu tả.",2,TRUE,sgk
+G4-165,4,11,My home,grammar,response,Do you live in a quiet village?,,"Yes, it is.","Yes, I am.","Yes, I do.","Yes, I live.",C,"Câu 'Do you...?' trả lời 'Yes, I do.'",1,TRUE,new
+G4-166,4,12,Jobs,vocabulary,picture_choice,She works in a hospital. She is a ___.,👩‍⚕️,farmer,actor,policeman,nurse,D,Làm việc ở bệnh viện: y tá 'nurse'.,1,TRUE,sgk
+G4-167,4,12,Jobs,vocabulary,picture_choice,He works on a farm. He is a ___.,👨‍🌾,actor,office worker,farmer,nurse,C,Làm việc ở nông trại: nông dân 'farmer'.,1,TRUE,sgk
+G4-168,4,12,Jobs,vocabulary,picture_choice,What is his job? He is a ___.,👮,nurse,policeman,farmer,actor,B,Hình cảnh sát: 'policeman'.,1,TRUE,sgk
+G4-169,4,12,Jobs,vocabulary,picture_choice,He works in films. He is an ___.,🎬,actor,policeman,farmer,nurse,A,Đóng phim: diễn viên 'actor'.,1,TRUE,new
+G4-170,4,12,Jobs,spelling,missing_letter,Choose the missing letter: f a c t _ r y,,e,u,a,o,D,Từ đúng là 'factory' (nhà máy).,1,TRUE,sgk
+G4-171,4,12,Jobs,spelling,missing_letter,Choose the missing letter: h o s p _ t a l,,o,a,i,e,C,Từ đúng là 'hospital' (bệnh viện).,1,TRUE,sgk
+G4-172,4,12,Jobs,spelling,missing_letter,Choose the missing letter: a c t _ r,,u,a,o,i,C,Từ đúng là 'actor' (diễn viên).,1,TRUE,new
+G4-173,4,12,Jobs,vocabulary,odd_one_out,Choose the odd one out.,,actor,nurse,farmer,hospital,D,"'hospital' là nơi làm việc, các từ còn lại là nghề nghiệp.",1,TRUE,new
+G4-174,4,12,Jobs,vocabulary,odd_one_out,Choose the odd one out.,,factory,hospital,farm,actor,D,"'actor' là nghề nghiệp, các từ còn lại là nơi làm việc.",1,TRUE,new
+G4-175,4,12,Jobs,grammar,fill_blank,What does your father ___? – He's a farmer.,,works,do,is,does,B,Hỏi nghề nghiệp: 'What does he do?',2,TRUE,sgk
+G4-176,4,12,Jobs,grammar,fill_blank,He works ___ a farm.,,of,in,to,on,D,Làm việc ở nông trại: 'on a farm'.,2,TRUE,sgk
+G4-177,4,12,Jobs,grammar,fill_blank,My mother ___ in a factory.,,work,working,works,is work,C,Chủ ngữ số ít (my mother) động từ thêm 's': 'works'.,2,TRUE,sgk
+G4-178,4,12,Jobs,grammar,response,What does your mother do?,,She's fine.,She's tall.,"Yes, she does.",She's a nurse.,D,"Hỏi nghề nghiệp, trả lời 'She's a + nghề'.",1,TRUE,sgk
+G4-179,4,12,Jobs,grammar,response,Where does your father work?,,He's an office worker.,He's forty.,He works hard.,He works in an office.,D,"Hỏi làm việc ở đâu, trả lời 'He works in/on/at + nơi'.",2,TRUE,sgk
+G4-180,4,12,Jobs,grammar,response,Is your uncle a policeman?,,"Yes, he does.","Yes, I am.","Yes, he works.","Yes, he is.",D,"Câu 'Is he...?' trả lời 'Yes, he is.'",1,TRUE,new
+G4-181,4,13,Appearance,vocabulary,picture_choice,Mai's brother is very tall. What does he look like? He's ___.,🦒,round,short,tall,small,C,Cao như hươu cao cổ: 'tall'.,1,TRUE,new
+G4-182,4,13,Appearance,vocabulary,picture_choice,These are my ___.,👀,hair,eyes,ears,face,B,Hình đôi mắt: 'eyes'.,1,TRUE,sgk
+G4-183,4,13,Appearance,vocabulary,picture_choice,She has long ___.,💇‍♀️,nose,hair,face,eyes,B,Tóc dài: 'long hair'.,1,TRUE,sgk
+G4-184,4,13,Appearance,vocabulary,picture_choice,Her face is ___.,🌕,tall,round,slim,busy,B,Khuôn mặt tròn như mặt trăng: 'round'.,1,TRUE,sgk
+G4-185,4,13,Appearance,spelling,missing_letter,Choose the missing letter: s l _ m,,i,o,e,a,A,Từ đúng là 'slim' (mảnh mai).,1,TRUE,sgk
+G4-186,4,13,Appearance,spelling,missing_letter,Choose the missing letter: r _ u n d,,i,a,e,o,D,Từ đúng là 'round' (tròn).,1,TRUE,sgk
+G4-187,4,13,Appearance,spelling,missing_letter,Choose the missing letter: a p p e a r _ n c e,,o,e,i,a,D,Từ đúng là 'appearance' (ngoại hình).,2,TRUE,new
+G4-188,4,13,Appearance,vocabulary,odd_one_out,Choose the odd one out.,,tall,short,slim,eyes,D,"'eyes' là bộ phận cơ thể, các từ còn lại là tính từ miêu tả.",1,TRUE,new
+G4-189,4,13,Appearance,vocabulary,odd_one_out,Choose the odd one out.,,face,hair,eyes,round,D,"'round' là tính từ, các từ còn lại là bộ phận cơ thể.",1,TRUE,new
+G4-190,4,13,Appearance,grammar,fill_blank,What ___ he look like? – He's tall and slim.,,does,is,do,are,A,Chủ ngữ 'he' dùng trợ động từ 'does'.,1,TRUE,sgk
+G4-191,4,13,Appearance,grammar,fill_blank,What do her eyes look like? – ___ big.,,She's,They're,There,It's,B,'eyes' là số nhiều nên dùng 'They're'.,2,TRUE,sgk
+G4-192,4,13,Appearance,grammar,fill_blank,My sister has ___ hair.,,long,slim,busy,tall,A,Tóc dài: 'long hair'.,1,TRUE,sgk
+G4-193,4,13,Appearance,grammar,response,What does your mother look like?,,She likes music.,"Yes, she does.",She's slim.,She's a nurse.,C,"Hỏi ngoại hình, trả lời bằng tính từ miêu tả.",1,TRUE,sgk
+G4-194,4,13,Appearance,grammar,response,What does his face look like?,,He's round.,It's round.,They're round.,"Yes, it is.",B,'face' là số ít nên trả lời 'It's...',2,TRUE,sgk
+G4-195,4,13,Appearance,grammar,response,Is your father tall?,,He's a farmer.,"No, he isn't. He's short.","No, he doesn't.","Yes, he's short.",B,"Câu 'Is he...?' trả lời 'No, he isn't.' rồi miêu tả.",2,TRUE,new
+G4-196,4,14,Daily activities,vocabulary,picture_choice,What does she do in the morning? She ___ the floor.,🧹,washes,watches,helps,cleans,D,Cây chổi: lau dọn sàn nhà 'clean the floor'.,1,TRUE,sgk
+G4-197,4,14,Daily activities,vocabulary,picture_choice,He washes the ___ after dinner.,🍽️,floor,dishes,hair,clothes,B,Bát đĩa: rửa bát 'wash the dishes'.,1,TRUE,sgk
+G4-198,4,14,Daily activities,vocabulary,picture_choice,She washes the ___.,👕,dishes,floor,clothes,car,C,Quần áo: giặt quần áo 'wash the clothes'.,1,TRUE,sgk
+G4-199,4,14,Daily activities,vocabulary,picture_choice,I help with the ___.,🍳,cooking,dishes,floor,clothes,A,Chảo nấu ăn: phụ nấu ăn 'help with the cooking'.,1,TRUE,new
+G4-200,4,14,Daily activities,spelling,missing_letter,Choose the missing letter: a f t e r n o _ n,,a,o,u,e,B,Từ đúng là 'afternoon' (buổi chiều).,1,TRUE,sgk
+G4-201,4,14,Daily activities,spelling,missing_letter,Choose the missing letter: e v e n _ n g,,e,a,o,i,D,Từ đúng là 'evening' (buổi tối).,1,TRUE,sgk
+G4-202,4,14,Daily activities,spelling,missing_letter,Choose the missing letter: c l o t h _ s,,i,o,a,e,D,Từ đúng là 'clothes' (quần áo).,1,TRUE,new
+G4-203,4,14,Daily activities,vocabulary,odd_one_out,Choose the odd one out.,,afternoon,morning,dishes,evening,C,"'dishes' là bát đĩa, các từ còn lại là buổi trong ngày.",1,TRUE,new
+G4-204,4,14,Daily activities,vocabulary,odd_one_out,Choose the odd one out.,,evening,cook,clean,wash,A,"'evening' là buổi tối, các từ còn lại là hoạt động.",1,TRUE,new
+G4-205,4,14,Daily activities,grammar,fill_blank,What does he do in the evening? – He ___ the dishes.,,washs,washes,wash,washing,B,"Chủ ngữ 'he', động từ tận cùng 'sh' thêm 'es': 'washes'.",2,TRUE,sgk
+G4-206,4,14,Daily activities,grammar,fill_blank,I help my mother ___ the cooking.,,at,on,with,to,C,Giúp việc gì: 'help with + việc'.,1,TRUE,sgk
+G4-207,4,14,Daily activities,grammar,fill_blank,What do you do ___ the morning?,,at,to,on,in,D,Buổi trong ngày dùng 'in the morning'.,1,TRUE,sgk
+G4-208,4,14,Daily activities,grammar,response,What do you do in the afternoon?,,In the afternoon.,"Yes, I do.",It's three o'clock.,I clean the floor.,D,"Hỏi làm gì, trả lời bằng hoạt động.",1,TRUE,sgk
+G4-209,4,14,Daily activities,grammar,response,What does your sister do in the evening?,,She wash the dishes.,She washes the dishes.,She's nine.,"Yes, she does.",B,Chủ ngữ 'she' động từ phải thêm 'es': 'washes'.,2,TRUE,sgk
+G4-210,4,14,Daily activities,grammar,response,Do you help with the cooking?,,"Yes, I help.","Yes, I do.","Yes, I am.","Yes, it is.",B,"Câu 'Do you...?' trả lời 'Yes, I do.'",1,TRUE,new
+G4-211,4,15,My family's weekends,vocabulary,picture_choice,We watch films at the ___.,🎬,cinema,swimming pool,sports centre,bookshop,A,Xem phim ở rạp chiếu phim: 'cinema'.,1,TRUE,sgk
+G4-212,4,15,My family's weekends,vocabulary,picture_choice,My brother swims at the ___.,🏊,cinema,shopping centre,swimming pool,bakery,C,Bơi ở bể bơi: 'swimming pool'.,1,TRUE,sgk
+G4-213,4,15,My family's weekends,vocabulary,picture_choice,My mother does ___ on Sundays.,🧘,films,meals,yoga,tennis,C,Tư thế ngồi thiền: tập yoga 'do yoga'.,1,TRUE,sgk
+G4-214,4,15,My family's weekends,vocabulary,picture_choice,My father plays ___ at the sports centre.,🎾,meals,films,yoga,tennis,D,Vợt và bóng: chơi quần vợt 'play tennis'.,1,TRUE,new
+G4-215,4,15,My family's weekends,spelling,missing_letter,Choose the missing letter: c i n _ m a,,e,o,a,i,A,Từ đúng là 'cinema' (rạp chiếu phim).,1,TRUE,sgk
+G4-216,4,15,My family's weekends,spelling,missing_letter,Choose the missing letter: y _ g a,,a,u,e,o,D,Từ đúng là 'yoga'.,1,TRUE,sgk
+G4-217,4,15,My family's weekends,spelling,missing_letter,Choose the missing letter: t e n n _ s,,a,e,u,i,D,Từ đúng là 'tennis' (quần vợt).,1,TRUE,new
+G4-218,4,15,My family's weekends,vocabulary,odd_one_out,Choose the odd one out.,,sports centre,yoga,cinema,swimming pool,B,"'yoga' là môn tập, các từ còn lại là địa điểm.",1,TRUE,new
+G4-219,4,15,My family's weekends,vocabulary,odd_one_out,Choose the odd one out.,,do yoga,cinema,cook meals,play tennis,B,"'cinema' là địa điểm, các từ còn lại là hoạt động.",1,TRUE,new
+G4-220,4,15,My family's weekends,grammar,fill_blank,Where ___ you go on Saturdays? – I go to the cinema.,,are,do,does,is,B,Chủ ngữ 'you' dùng trợ động từ 'do'.,1,TRUE,sgk
+G4-221,4,15,My family's weekends,grammar,fill_blank,My family goes to the shopping centre ___ Sundays.,,in,to,at,on,D,Trước ngày trong tuần dùng 'on'.,1,TRUE,sgk
+G4-222,4,15,My family's weekends,grammar,fill_blank,What ___ your mother do on Sundays? – She cooks meals.,,do,does,are,is,B,Chủ ngữ số ít (your mother) dùng 'does'.,1,TRUE,sgk
+G4-223,4,15,My family's weekends,grammar,response,Where do you go on Sundays?,,I go to the shopping centre.,On Sundays.,"Yes, I go.",I go at seven o'clock.,A,"Hỏi đi đâu, trả lời 'I go to the + nơi'.",1,TRUE,sgk
+G4-224,4,15,My family's weekends,grammar,response,What does your brother do at the sports centre?,,He goes there.,It's big.,"Yes, he does.",He plays tennis.,D,"Hỏi làm gì, trả lời bằng hoạt động.",1,TRUE,sgk
+G4-225,4,15,My family's weekends,grammar,response,Does your family watch films at weekends?,,"Yes, I am.","Yes, we are.","Yes, we do.","Yes, it does.",C,"Hỏi về cả gia đình, trả lời thay bằng 'we': 'Yes, we do.'",2,TRUE,new
+G4-226,4,16,Weather,vocabulary,picture_choice,What's the weather like? It's ___.,☀️,sunny,cloudy,rainy,windy,A,Mặt trời: trời nắng 'sunny'.,1,TRUE,sgk
+G4-227,4,16,Weather,vocabulary,picture_choice,What's the weather like? It's ___.,🌧️,cloudy,rainy,windy,sunny,B,Mây và mưa: trời mưa 'rainy'.,1,TRUE,sgk
+G4-228,4,16,Weather,vocabulary,picture_choice,What's the weather like? It's ___.,☁️,rainy,sunny,windy,cloudy,D,Đám mây: trời nhiều mây 'cloudy'.,1,TRUE,sgk
+G4-229,4,16,Weather,vocabulary,picture_choice,We buy bread at the ___.,🍞,bakery,cinema,water park,bookshop,A,Mua bánh mì ở tiệm bánh: 'bakery'.,1,TRUE,new
+G4-230,4,16,Weather,spelling,missing_letter,Choose the missing letter: w i n d _,,e,o,y,i,C,Từ đúng là 'windy' (có gió).,1,TRUE,sgk
+G4-231,4,16,Weather,spelling,missing_letter,Choose the missing letter: w e a t h _ r,,a,i,e,o,C,Từ đúng là 'weather' (thời tiết).,1,TRUE,sgk
+G4-232,4,16,Weather,spelling,missing_letter,Choose the missing letter: b o o k s h _ p,,a,e,o,u,C,Từ đúng là 'bookshop' (hiệu sách).,1,TRUE,new
+G4-233,4,16,Weather,vocabulary,odd_one_out,Choose the odd one out.,,windy,sunny,bakery,rainy,C,"'bakery' là tiệm bánh, các từ còn lại là thời tiết.",1,TRUE,new
+G4-234,4,16,Weather,vocabulary,odd_one_out,Choose the odd one out.,,supermarket,bookshop,bakery,cloudy,D,"'cloudy' là thời tiết, các từ còn lại là địa điểm.",1,TRUE,new
+G4-235,4,16,Weather,grammar,fill_blank,What's the weather ___ today? – It's windy.,,do,likes,like,look,C,Hỏi thời tiết: 'What's the weather like?',1,TRUE,sgk
+G4-236,4,16,Weather,grammar,fill_blank,Where were you yesterday? – I ___ at the bookshop.,,is,was,am,were,B,"Quá khứ (yesterday), chủ ngữ 'I' dùng 'was'.",2,TRUE,sgk
+G4-237,4,16,Weather,grammar,fill_blank,It's ___ today. Take your umbrella!,,sunny,hot,rainy,dry,C,Mang ô vì trời mưa: 'rainy'.,1,TRUE,new
+G4-238,4,16,Weather,grammar,response,What's the weather like today?,,It's Monday.,It's cloudy.,It's ten o'clock.,I like it.,B,"Hỏi thời tiết, trả lời 'It's + thời tiết'.",1,TRUE,sgk
+G4-239,4,16,Weather,grammar,response,Where were you yesterday?,,I am at the water park.,It was sunny.,I was at the water park.,"Yes, I was.",C,"Hỏi hôm qua ở đâu, trả lời 'I was at + nơi'.",2,TRUE,sgk
+G4-240,4,16,Weather,grammar,response,Is it sunny today?,,"No, it doesn't.","No, I'm not.","No, it isn't. It's rainy.","Yes, it's rainy.",C,"Câu 'Is it...?' trả lời 'No, it isn't.' rồi nói thời tiết thật.",2,TRUE,new
+G4-241,4,17,In the city,vocabulary,picture_choice,What does this sign mean?,⬅️,Turn left.,Go straight.,Stop.,Turn right.,A,Mũi tên sang trái: rẽ trái 'Turn left'.,1,TRUE,sgk
+G4-242,4,17,In the city,vocabulary,picture_choice,What does this sign mean?,➡️,Turn round.,Turn left.,Turn right.,Go straight.,C,Mũi tên sang phải: rẽ phải 'Turn right'.,1,TRUE,sgk
+G4-243,4,17,In the city,vocabulary,picture_choice,What does this sign mean?,⬆️,Turn left.,Go straight.,Turn right.,Stop.,B,Mũi tên thẳng lên: đi thẳng 'Go straight'.,1,TRUE,sgk
+G4-244,4,17,In the city,vocabulary,picture_choice,What does this sign mean?,🛑,Stop.,Turn round.,Turn left.,Go straight.,A,Biển báo dừng lại: 'Stop'.,1,TRUE,new
+G4-245,4,17,In the city,spelling,missing_letter,Choose the missing letter: s t r a _ g h t,,i,e,o,a,A,Từ đúng là 'straight' (thẳng).,2,TRUE,sgk
+G4-246,4,17,In the city,spelling,missing_letter,Choose the missing letter: r i g h _,,d,k,n,t,D,Từ đúng là 'right' (bên phải).,1,TRUE,sgk
+G4-247,4,17,In the city,spelling,missing_letter,Choose the missing letter: s t o _,,d,t,p,b,C,Từ đúng là 'stop' (dừng lại).,1,TRUE,new
+G4-248,4,17,In the city,vocabulary,odd_one_out,Choose the odd one out.,,straight,city,left,right,B,"'city' là thành phố, các từ còn lại chỉ hướng đi.",1,TRUE,new
+G4-249,4,17,In the city,vocabulary,odd_one_out,Choose the odd one out.,,left,straight,sunny,right,C,"'sunny' là thời tiết, các từ còn lại chỉ hướng đi.",1,TRUE,new
+G4-250,4,17,In the city,grammar,fill_blank,How can I ___ to the bakery?,,gets,getting,get,got,C,Sau 'can' dùng động từ nguyên mẫu: 'get'.,2,TRUE,sgk
+G4-251,4,17,In the city,grammar,fill_blank,___ straight. Then turn left.,,Stop,Go,Turn,Get,B,Đi thẳng: 'Go straight'.,1,TRUE,sgk
+G4-252,4,17,In the city,grammar,fill_blank,Excuse me. ___ is the supermarket?,,Where,When,Who,What,A,Hỏi địa điểm ở đâu dùng 'Where'.,1,TRUE,sgk
+G4-253,4,17,In the city,grammar,response,Excuse me. How can I get to the bookshop?,,It's a bookshop.,Go straight and turn left.,"Yes, you can.",I like books.,B,"Hỏi đường, trả lời bằng chỉ dẫn hướng đi.",1,TRUE,sgk
+G4-254,4,17,In the city,grammar,response,Where's the bakery?,,It's bread.,It's sunny.,It's on your right.,"Yes, it is.",C,"Hỏi ở đâu, trả lời vị trí: 'It's on your right.'",2,TRUE,new
+G4-255,4,17,In the city,grammar,response,Thank you very much!,,You're welcome.,Thank you.,"Yes, please.","Goodbye, thanks.",A,Đáp lại lời cảm ơn: 'You're welcome.',1,TRUE,sgk
+G4-256,4,18,At the shopping centre,vocabulary,picture_choice,How much is the ___?,👕,hat,shoes,skirt,T-shirt,D,Áo phông: 'T-shirt'.,1,TRUE,sgk
+G4-257,4,18,At the shopping centre,vocabulary,picture_choice,You can buy presents at the ___.,🎁,food stall,bakery,gift shop,bookshop,C,Mua quà ở cửa hàng quà tặng: 'gift shop'.,1,TRUE,sgk
+G4-258,4,18,At the shopping centre,vocabulary,picture_choice,How much is it? It's fifty ___ dong.,💵,thousand,hundred,many,fifteen,A,50.000 đồng: 'fifty thousand dong'.,2,TRUE,new
+G4-259,4,18,At the shopping centre,vocabulary,picture_choice,There are many shops here. Where is Mai?,🏬,at the swimming pool,at the shopping centre,on the farm,at the campsite,B,Nhiều cửa hàng: trung tâm mua sắm 'shopping centre'.,1,TRUE,new
+G4-260,4,18,At the shopping centre,spelling,missing_letter,Choose the missing letter: b e t w _ e n,,i,e,a,o,B,Từ đúng là 'between' (ở giữa).,2,TRUE,sgk
+G4-261,4,18,At the shopping centre,spelling,missing_letter,Choose the missing letter: o p p o s _ t e,,a,i,o,e,B,Từ đúng là 'opposite' (đối diện).,2,TRUE,sgk
+G4-262,4,18,At the shopping centre,spelling,missing_letter,Choose the missing letter: s k _ r t,,u,o,a,i,D,Từ đúng là 'skirt' (chân váy).,1,TRUE,new
+G4-263,4,18,At the shopping centre,vocabulary,odd_one_out,Choose the odd one out.,,skirt,opposite,behind,near,A,"'skirt' là quần áo, các từ còn lại chỉ vị trí.",1,TRUE,new
+G4-264,4,18,At the shopping centre,vocabulary,odd_one_out,Choose the odd one out.,,jacket,near,skirt,T-shirt,B,"'near' chỉ vị trí, các từ còn lại là quần áo.",1,TRUE,new
+G4-265,4,18,At the shopping centre,grammar,fill_blank,"How ___ is the skirt? – It's 90,000 dong.",,long,many,old,much,D,Hỏi giá tiền: 'How much is...?',1,TRUE,sgk
+G4-266,4,18,At the shopping centre,grammar,fill_blank,The gift shop is ___ the bakery and the bookshop.,,behind,near,between,opposite,C,'between ... and ...': ở giữa hai nơi.,2,TRUE,sgk
+G4-267,4,18,At the shopping centre,grammar,fill_blank,How much ___ the T-shirt?,,do,am,is,are,C,'the T-shirt' số ít dùng 'is'.,1,TRUE,sgk
+G4-268,4,18,At the shopping centre,grammar,response,How much is the T-shirt?,,It's blue.,"It's 80,000 dong.","Yes, it is.",It's a T-shirt.,B,"Hỏi giá, trả lời 'It's + số tiền'.",1,TRUE,sgk
+G4-269,4,18,At the shopping centre,grammar,response,Where's the gift shop?,,It's a gift.,"It's 50,000 dong.","Yes, it is.",It's near the cinema.,D,"Hỏi ở đâu, trả lời bằng vị trí.",1,TRUE,sgk
+G4-270,4,18,At the shopping centre,grammar,response,Can I help you?,,"Yes, I can.","Yes, I'd like a skirt, please.","No, you can't.","I'm fine, thank you.",B,"Người bán hỏi 'Can I help you?', trả lời điều mình muốn mua.",2,TRUE,new
+G4-271,4,19,The animal world,vocabulary,picture_choice,What animal is it?,🦁,hippo,lion,giraffe,crocodile,B,Hình sư tử: 'lion'.,1,TRUE,sgk
+G4-272,4,19,The animal world,vocabulary,picture_choice,What animal is it?,🦒,crocodile,lion,giraffe,hippo,C,Hình hươu cao cổ: 'giraffe'.,1,TRUE,sgk
+G4-273,4,19,The animal world,vocabulary,picture_choice,What animal is it?,🐊,lion,hippo,crocodile,giraffe,C,Hình cá sấu: 'crocodile'.,1,TRUE,sgk
+G4-274,4,19,The animal world,vocabulary,picture_choice,What animal is it?,🦛,lion,giraffe,hippo,crocodile,C,Hình hà mã: 'hippo'.,1,TRUE,new
+G4-275,4,19,The animal world,spelling,missing_letter,Choose the missing letter: g i r _ f f e,,i,e,a,o,C,Từ đúng là 'giraffe' (hươu cao cổ).,1,TRUE,sgk
+G4-276,4,19,The animal world,spelling,missing_letter,Choose the missing letter: c r o c o d _ l e,,o,e,i,a,C,Từ đúng là 'crocodile' (cá sấu).,2,TRUE,sgk
+G4-277,4,19,The animal world,spelling,missing_letter,Choose the missing letter: l o u d l _,,a,e,y,i,C,"Từ đúng là 'loudly' (một cách to, ầm ĩ).",1,TRUE,new
+G4-278,4,19,The animal world,vocabulary,odd_one_out,Choose the odd one out.,,lion,quickly,merrily,loudly,A,"'lion' là con vật, các từ còn lại là trạng từ (đuôi -ly).",2,TRUE,new
+G4-279,4,19,The animal world,vocabulary,odd_one_out,Choose the odd one out.,,dance,giraffe,sing,run,B,"'giraffe' là con vật, các từ còn lại là hoạt động.",1,TRUE,new
+G4-280,4,19,The animal world,grammar,fill_blank,Why do you like lions? – Because they roar ___.,,loud,quick,beautiful,loudly,D,Bổ nghĩa cho động từ 'roar' dùng trạng từ 'loudly'.,2,TRUE,sgk
+G4-281,4,19,The animal world,grammar,fill_blank,The monkeys can climb ___.,,loud,quickly,quick,beauty,B,Bổ nghĩa cho động từ 'climb' dùng trạng từ 'quickly'.,2,TRUE,new
+G4-282,4,19,The animal world,grammar,fill_blank,What animal ___ you want to see? – I want to see the hippos.,,are,do,is,does,B,Chủ ngữ 'you' dùng trợ động từ 'do'.,1,TRUE,sgk
+G4-283,4,19,The animal world,grammar,response,What animal do you want to see?,,It's a zoo.,I like animals.,I want to see the crocodiles.,"Yes, I do.",C,Trả lời 'I want to see the + con vật'.,1,TRUE,sgk
+G4-284,4,19,The animal world,grammar,response,Why do you like giraffes?,,At the zoo.,"Yes, I like.",Because they're tall.,They're giraffes.,C,Câu hỏi 'Why' trả lời bằng 'Because...',1,TRUE,sgk
+G4-285,4,19,The animal world,grammar,response,How do the peacocks dance?,,They dance beautifully.,They dance beautiful.,They are peacocks.,"Yes, they do.",A,Bổ nghĩa cho động từ 'dance' dùng trạng từ 'beautifully'.,3,TRUE,new
+G4-286,4,20,At summer camp,vocabulary,picture_choice,What are they doing? They're ___ a tent.,⛺,building,singing,putting up,telling,C,Dựng lều: 'put up a tent'.,2,TRUE,sgk
+G4-287,4,20,At summer camp,vocabulary,picture_choice,They're building a ___.,🔥,story,tent,campfire,photo,C,Đốt lửa trại: 'build a campfire'.,1,TRUE,sgk
+G4-288,4,20,At summer camp,vocabulary,picture_choice,She's taking a ___.,📸,photo,song,story,tent,A,Máy ảnh: chụp ảnh 'take a photo'.,1,TRUE,sgk
+G4-289,4,20,At summer camp,vocabulary,picture_choice,They're playing ___.,🃏,card games,songs,a story,the piano,A,Lá bài: chơi bài 'play card games'.,1,TRUE,new
+G4-290,4,20,At summer camp,spelling,missing_letter,Choose the missing letter: c a m p f _ r e,,e,o,i,a,C,Từ đúng là 'campfire' (lửa trại).,1,TRUE,sgk
+G4-291,4,20,At summer camp,spelling,missing_letter,Choose the missing letter: s t o r _,,i,y,a,e,B,Từ đúng là 'story' (câu chuyện).,1,TRUE,sgk
+G4-292,4,20,At summer camp,spelling,missing_letter,Choose the missing letter: p h _ t o,,i,a,e,o,D,Từ đúng là 'photo' (bức ảnh).,1,TRUE,new
+G4-293,4,20,At summer camp,vocabulary,odd_one_out,Choose the odd one out.,,build,tell,tent,sing,C,"'tent' là cái lều, các từ còn lại là động từ.",1,TRUE,new
+G4-294,4,20,At summer camp,vocabulary,odd_one_out,Choose the odd one out.,,photo,tent,tell,campfire,C,"'tell' là động từ, các từ còn lại là danh từ.",1,TRUE,new
+G4-295,4,20,At summer camp,grammar,fill_blank,What are you doing? – I'm ___ songs.,,sings,singing,sang,sing,B,Thì hiện tại tiếp diễn: 'am/is/are + V-ing'.,2,TRUE,sgk
+G4-296,4,20,At summer camp,grammar,fill_blank,What ___ she doing? – She's telling a story.,,is,does,do,are,A,Chủ ngữ 'she' ở thì hiện tại tiếp diễn dùng 'is'.,1,TRUE,sgk
+G4-297,4,20,At summer camp,grammar,fill_blank,They are ___ a campfire.,,builds,built,build,building,D,Sau 'are' dùng V-ing: 'building'.,2,TRUE,new
+G4-298,4,20,At summer camp,grammar,response,What are you doing?,,I take a photo.,It's a photo.,I'm taking a photo.,"Yes, I am.",C,"Hỏi đang làm gì, trả lời 'I'm + V-ing'.",2,TRUE,sgk
+G4-299,4,20,At summer camp,grammar,response,What are your friends doing?,,They're my friends.,They're playing card games.,"Yes, they are.",They play cards.,B,"Hỏi đang làm gì, trả lời 'They're + V-ing'.",2,TRUE,sgk
+G4-300,4,20,At summer camp,grammar,response,Are you putting up a tent?,,"Yes, I do.","Yes, I putting.","Yes, it is.","Yes, I am.",D,"Câu 'Are you...?' trả lời 'Yes, I am.'",1,TRUE,new

@@ -13,6 +13,10 @@
 var SHEETS_GRADE3_QUESTIONS = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTqHd8BjeFc1ARAXrhZaQEDMdgSQyutdu2s-2UCO58vun1cFtN3dYtJiqoUC-9BCAeqxLbn87PA_vHU/pub?gid=414394861&single=true&output=csv';
 var SHEETS_GRADE3_STRUCTURE = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTqHd8BjeFc1ARAXrhZaQEDMdgSQyutdu2s-2UCO58vun1cFtN3dYtJiqoUC-9BCAeqxLbn87PA_vHU/pub?gid=1157929152&single=true&output=csv';
 
+// Lớp 4: chưa có Google Sheets, website đọc file CSV trong data/. Khi tạo Google Sheets cho lớp 4 thì dán link vào đây.
+var SHEETS_GRADE4_QUESTIONS = '';
+var SHEETS_GRADE4_STRUCTURE = '';
+
 window.HANI_CONFIG = {
   grades: {
     3: {
@@ -24,9 +28,19 @@ window.HANI_CONFIG = {
         'My family', 'Jobs', 'My house', 'My bedroom', 'At the dining table',
         'My pets', 'Our toys', 'Playing and doing', 'Outdoor activities', 'At the zoo'
       ]
+    },
+    4: {
+      questions: [SHEETS_GRADE4_QUESTIONS, 'data/grade4.csv'],
+      structure: [SHEETS_GRADE4_STRUCTURE, 'data/exam-structure-grade4.csv'],
+      units: [
+        'My friends', 'Time and daily routines', 'My week', 'My birthday party', 'Things we can do',
+        'Our school facilities', 'Our timetables', 'My favourite subjects', 'Our sports day', 'Our summer holidays',
+        'My home', 'Jobs', 'Appearance', 'Daily activities', "My family's weekends",
+        'Weather', 'In the city', 'At the shopping centre', 'The animal world', 'At summer camp'
+      ]
     }
   },
   // Lớp đang mở. Các lớp khác hiện "Coming soon".
-  openGrades: [3],
+  openGrades: [3, 4],
   maxProfiles: 3
 };

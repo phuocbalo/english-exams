@@ -1,0 +1,5 @@
+mode,name,unit_from,unit_to,picture_choice,missing_letter,odd_one_out,fill_blank,response,time_minutes
+unit,Bài tập theo Unit (mỗi Unit 1 đề),1,20,3,2,1,2,2,15
+hk1,Ôn luyện Học kỳ 1,1,10,5,3,3,5,4,25
+hk2,Ôn luyện Học kỳ 2,11,20,5,3,3,5,4,25
+year,Đề thi cả năm,1,20,7,5,5,8,5,35
